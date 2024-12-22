@@ -40,7 +40,7 @@ const mentors = [
 
 export function JudgesSection() {
   return (
-    <Section id="mentors" title="Panel of Judges">
+    <Section id="judges" title="Panel of Judges">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {mentors.map((mentor, index) => (
           <PersonCard key={index} {...mentor} />

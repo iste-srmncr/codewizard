@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone, Instagram } from 'lucide-react';
+import { Github, Link2, Linkedin, Mail, MapPin, Phone, Instagram } from 'lucide-react';
 import logo from '../assets/logocode.png';
 import { useState, useEffect } from 'react';
 
@@ -12,7 +12,7 @@ export function Footer() {
   }, []);
 
   const socialLinks = [
-    { icon: <Twitter className="w-5 h-5" />, href: '#', label: 'Twitter' },
+    { icon: <Link2 className="w-5 h-5" />, href: 'https://www.istesrmncr.in/', label: 'Our Website' },
     { 
       icon: <Linkedin className="w-5 h-5" />, 
       href: 'https://www.linkedin.com/company/indian-society-for-technical-education-iste-srm-ncr', 
