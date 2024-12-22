@@ -2,14 +2,14 @@
 import { Section } from './Section';
 
 const pastSponsors = [
-  { name: 'TechCorp', tier: 'platinum', imageUrl: 'src/assets/PastSponsorLogos/Polygon Primary Dark.svg' },
-  { name: 'DevHub', tier: 'gold', imageUrl: 'PastSponspor/Devfolio - Normal.svg' },
-  { name: 'CloudNet', tier: 'gold', imageUrl: 'src/assets/PastSponsorLogos/Untitled.svg' },
-  { name: 'CodeLabs', tier: 'silver', imageUrl: 'src/assets/PastSponsorLogos/digitalocean-horizontal.svg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'src/assets/PastSponsorLogos/jetbrains-mono-white.svg' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'src/assets/PastSponsorLogos/grnew.svg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'src/assets/PastSponsorLogos/Polygon Primary Dark.svg' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'src/assets/PastSponsorLogos/Polygon Primary Dark.svg' },
+  { name: 'TechCorp', tier: 'platinum', imageUrl: 'PastSponsorLogos/Polygon Primary Dark.svg' },
+  { name: 'DevHub', tier: 'gold', imageUrl: 'PastSponsorLogos/Devfolio - Normal.svg' },
+  { name: 'CloudNet', tier: 'gold', imageUrl: 'PastSponsorLogos/Untitled.svg' },
+  { name: 'CodeLabs', tier: 'silver', imageUrl: 'PastSponsorLogos/digitalocean-horizontal.svg' },
+  { name: 'DataFlow', tier: 'silver', imageUrl: 'PastSponsorLogos/jetbrains-mono-white.svg' },
+  { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/grnew.svg' },
+  { name: 'DataFlow', tier: 'silver', imageUrl: 'PastSponsorLogos/Polygon Primary Dark.svg' },
+  { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/Polygon Primary Dark.svg' },
 ];
 
 export function PastSponsorsSection() {
