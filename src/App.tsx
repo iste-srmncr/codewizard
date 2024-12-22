@@ -13,7 +13,7 @@ import { PrizePool } from './components/PrizePool';
 import { Code2, Wifi, Coffee, Gift } from 'lucide-react';
 import {  Bed, Bus, Medal, Book, Smile } from 'lucide-react';
 
-import backgroundSvg from './assets/bgsvg.svg';
+import backgroundSvg from './assets/bgsvg.webp';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
 function App() {
   const amenities = [
@@ -101,7 +101,7 @@ function App() {
       </section>
 
       {/* About Section */}
-      <Section id="about" title="About CodeWizard" className="bg-[#070707]">
+      <Section id="about" title="About CodeWizard" className="bg-[#070707]" style={{ backgroundColor: 'rgba(1, 1, 7, 0.7)' }}>
         <div className="max-w-3xl mx-auto text-center text-gray-300">
           <p className="mb-6">
             Join us for an unforgettable weekend of coding, creativity, and collaboration. 
