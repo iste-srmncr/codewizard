@@ -4,7 +4,7 @@ import { PersonCard } from './PersonCard';
 
 const mentors = [
   {
-    name: 'Unknown Name',
+    name: 'Mentor Name',
     role: 'Role',
     image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
     expertise: 'Cloud Architecture',
@@ -15,7 +15,7 @@ const mentors = [
     }
   },
   {
-    name: 'Unknown Name',
+    name: 'Mentor Name',
     role: 'Role',
     image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
     expertise: 'Product Strategy',
@@ -26,7 +26,7 @@ const mentors = [
     }
   },
   {
-    name: 'Unknown Name',
+    name: 'Mentor Name',
     role: 'Role',
     image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
     expertise: 'User Experience',
