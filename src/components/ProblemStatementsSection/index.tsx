@@ -38,7 +38,7 @@ export function ProblemStatementsSection() {
   };
 
   // Initially locking all problems
-  const lockAllProblems = false;
+  const lockAllProblems = true;
 
   return (
     <Section id="problems" title="Problem Statements">

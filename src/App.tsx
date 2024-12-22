@@ -16,6 +16,7 @@ import { RoadmapSection } from './components/RoadmapSection';
 import backgroundSvg from './assets/bgsvg.webp';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { AboutSection } from './components/AboutSection';
+import { JudgesSection } from './components/JudgesSection';
 function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
@@ -123,7 +124,9 @@ function App() {
       <ProblemStatementsSection />
       <SponsorsSection />
       <PastSponsorsSection/>
+      <JudgesSection/>
       <MentorsSection />
+    
       <TeamSection />
       <FAQSection />
       <Footer />

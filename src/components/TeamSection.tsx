@@ -21,12 +21,19 @@ const teamMembers = {
     
   ],
   PR: [
+    { name: 'Srishti Ahuja', role: 'PR Lead', image: 'https://www.istesrmncr.in/images/team/IMG-20240306-WA0020%20-%20Srishti%20Ahuja.jpg' },
     { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
   Design: [
+    { name: 'Yash Sharma', role: 'Creative Lead', image: 'https://www.istesrmncr.in/images/team/YASSHA%20-%20Yash%20Sharma.JPG' },
+     { name: 'Ayush Sharma', role: 'Creative Lead', image: 'https://www.istesrmncr.in/images/team/ayush-sharma.jpg' },
     { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
   Management: [
+   
+    { name: 'Anushka Jha', role: 'Content Lead', image: 'https://www.istesrmncr.in/images/team/anujha%20-%20Anushka%20Jha.jpeg' },
+    { name: 'Sneha Singh', role: 'Publicity Lead', image: 'https://www.istesrmncr.in/images/team/IMG-20241005-WA0068%20-%20Sneha%20Singh.jpg' },
+    { name: 'Saksham Dwivedi', role: 'Social Lead', image: 'https://www.istesrmncr.in/images/team/sdw1.png' },
     { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
 };
