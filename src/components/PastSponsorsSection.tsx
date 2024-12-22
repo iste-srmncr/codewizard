@@ -3,7 +3,7 @@ import { Section } from './Section';
 
 const pastSponsors = [
   { name: 'TechCorp', tier: 'platinum', imageUrl: 'src/assets/PastSponsorLogos/Polygon Primary Dark.svg' },
-  { name: 'DevHub', tier: 'gold', imageUrl: 'src/assets/PastSponsorLogos/Devfolio - White.svg' },
+  { name: 'DevHub', tier: 'gold', imageUrl: 'PastSponspor/Devfolio - Normal.svg' },
   { name: 'CloudNet', tier: 'gold', imageUrl: 'src/assets/PastSponsorLogos/Untitled.svg' },
   { name: 'CodeLabs', tier: 'silver', imageUrl: 'src/assets/PastSponsorLogos/digitalocean-horizontal.svg' },
   { name: 'DataFlow', tier: 'silver', imageUrl: 'src/assets/PastSponsorLogos/jetbrains-mono-white.svg' },
