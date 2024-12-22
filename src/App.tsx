@@ -21,7 +21,7 @@ function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
     { icon: <Coffee className="w-8 h-8" />, title: 'Free Food & Drinks', description: 'Keep energized throughout the event' },
-    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Enjoy free transport services from the nearest metro station for a smooth and hassle-free commute.' },
+    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Enjoy free transport services from the nearest metro station.' },
     { icon: <Bed className="w-8 h-8" />, title: 'Accommodation', description: 'Comfortable stay for all participants' },
     { icon: <Gift className="w-8 h-8" />, title: 'Swag Kits', description: 'Exclusive merchandise for all participants' },
     { icon: <Code2 className="w-8 h-8" />, title: 'Workshop Access', description: 'Learn from industry experts' },
