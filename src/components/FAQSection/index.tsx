@@ -5,25 +5,47 @@ import { FAQItem } from './FAQItem';
 const faqs = [
   {
     question: "What's the registration deadline?",
-    answer: "Registration closes 48 hours before the event starts. Early registration is recommended as spots are limited.",
+    answer: "48 hours before the event. Don't wait till the last second, we don’t like last-minute surprises! ⏳",
   },
   {
     question: "Do I need to have a team?",
-    answer: "No, you can register individually! We'll have team formation activities at the start of the event.",
+    answer: "Not really. Fly solo or find your hacker squad during team formation activities. 🕵️‍♂️",
   },
   {
+    question: "Do I need to have a team?",
+    answer: "You can register individually, but teams need 2-5 members.",
+  },
+  
+  {
     question: "What should I bring?",
-    answer: "Bring your laptop, charger, and any personal items you'll need. We'll provide food, drinks, and a comfortable workspace.",
+    answer: "Laptop, charger, and your brilliant ideas. An extension cord is a lifesaver—laptops need energy too! 🔌",
   },
   {
     question: "Is there a participation fee?",
-    answer: "No, participation is completely free! All meals, swag, and resources are provided by our sponsors.",
+    answer: "Nope! It's all free, thanks to our generous sponsors. 🎉",
   },
   {
     question: "What skill level is required?",
-    answer: "All skill levels are welcome! We have mentors to help you learn and grow throughout the event.",
+    answer: "Everyone’s welcome, whether you’re a coding ninja or just met ‘Hello World.’ 🥷",
+  },
+  {
+    question: "Will Wi-Fi and food be provided?",
+    answer: "Of course! Stay connected and full of energy. No hangry hackers here! 🍔",
+  },
+  {
+    question: "How are projects judged?",
+    answer: "Creativity, technical skills, design, and impact. Just wow us—no bribes allowed! 😉",
+  },
+  {
+    question: "Where can I get more answers?",
+    answer: "Still curious? Join our WhatsApp group and bombard us with questions! 📱",
+  },
+  {
+    question: "Is the hackathon online or offline?",
+    answer: "Offline only! Real humans, real connections, real fun. 🌍",
   },
 ];
+
 
 export function FAQSection() {
   return (

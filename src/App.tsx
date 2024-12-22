@@ -15,6 +15,7 @@ import {  Bed, Bus, Medal, Book, Smile } from 'lucide-react';
 
 import backgroundSvg from './assets/bgsvg.webp';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
+import { AboutSection } from './components/AboutSection';
 function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
@@ -101,18 +102,7 @@ function App() {
       </section>
 
       {/* About Section */}
-      <Section id="about" title="About CodeWizard" className="bg-[#070707]" style={{ backgroundColor: 'rgba(1, 1, 7, 0.7)' }}>
-        <div className="max-w-3xl mx-auto text-center text-gray-300">
-          <p className="mb-6">
-            Join us for an unforgettable weekend of coding, creativity, and collaboration. 
-            CodeWizard brings together the brightest minds in technology to solve real-world problems.
-          </p>
-          <p>
-            Whether you're a seasoned developer or just starting your coding journey, 
-            CodeWizard offers an inclusive environment for learning and innovation.
-          </p>
-        </div>
-      </Section>
+     <AboutSection/>
 
       {/* Amenities Section */}
       <Section id="amenities" title="What We Offer" className="bg-black-dark"  style={{ backgroundColor: 'rgba(1, 1, 7, 0.7)' }}>

@@ -13,9 +13,9 @@ export function Section({ id, title, children, className = '', style }: SectionP
   const titleColor = title === 'Past Sponsors' ? '#cececf' : '#dbe2e7'; // Use the same color for all titles for now, but you can modify as needed
 
   return (
-    <section id={id} className={`py-20 ${className}`} style={style}>
+    <section id={id} className={`py-12 ${className}`} style={style}>
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12" style={{ color: titleColor }}>
+        <h2 className="text-3xl font-bold text-center mb-10" style={{ color: titleColor }}>
           {title}
         </h2>
         {children}

@@ -1,7 +1,15 @@
-import React from 'react';
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 
+import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import logo from '../assets/logocode.png'
+import { useState,useEffect } from 'react';
 export function Footer() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  
+    useEffect(() => {
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
   const socialLinks = [
     { icon: <Twitter className="w-5 h-5" />, href: '#', label: 'Twitter' },
     { icon: <Github className="w-5 h-5" />, href: '#', label: 'GitHub' },
@@ -14,10 +22,21 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold text-[#dbe2e7] mb-4">CodeWizard</h3>
-            <p className="text-gray-400">
-              Join us in creating the future through code and innovation.
-            </p>
+             <a href="#" className="text-2xl font-bold text-[#dbe2e7]">
+  <img src={logo} alt="CodeWizard Logo" className={windowWidth <= 768 ? 'h-9' : 'h-12'}  style={{backgroundColor:'transparent',opacity:0.7}} />
+</a>
+<p className="text-gray-400" >
+  <strong>CodeWizard</strong>, an extraordinary hackathon organized by 
+  <a href="https://istesrmncr.in" className="font-bold text-[#827438] hover:text-[#494636] flex items-center gap-2 inline-flex" target="_blank" rel="noopener noreferrer" style={{ verticalAlign: "middle",fontFamily:'Oxanium' }}>
+    <img src="https://iste-mu.vercel.app/static/media/istelogo.14a99e9575523b15a5dff1cfc0474e11.svg" alt="ISTE Logo" className="h-5 w-5" />
+    ISTE<span style={{}}>SRM-NCR</span>
+  </a>
+  , is set to reshape the boundaries of creativity and technology.
+</p>
+
+
+
+
           </div>
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
@@ -74,8 +93,8 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} CodeWizard. All rights reserved.</p>
+        <div className="mt-8 pt-0 border-t border-gray-700 text-center text-gray-400">
+          <span>&copy; {new Date().getFullYear()} CodeWizard. All rights reserved.</span>
         </div>
       </div>
     </footer>
