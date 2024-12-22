@@ -47,10 +47,11 @@ function App() {
       <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
         <ParticlesBackground />
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h1 className="text-6xl font-bold mb-6 text-[#fff] bg-clip-text">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text">
             CodeWizard <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2025</span>
           </h1>
-          <h6 className="text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
+
+          <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
             <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent
 "> 28-29th Jan, 2025</span>
           </h6>
