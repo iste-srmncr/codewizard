@@ -9,16 +9,12 @@ const faqs = [
   },
   {
     question: "Do I need to have a team?",
-    answer: "Not really. Fly solo or find your hacker squad during team formation activities. 🕵️‍♂️",
-  },
-  {
-    question: "Do I need to have a team?",
-    answer: "You can register individually, but teams need 2-5 members.",
+    answer: "Great ideas rarely fly solo! ✨ Form a team of 2 to 5 members 👥 and collaborate to innovate 💡🚀.",
   },
   
   {
     question: "What should I bring?",
-    answer: "Laptop, charger, and your brilliant ideas. An extension cord is a lifesaver—laptops need energy too! 🔌",
+    answer: "Bring your laptop, charger, and all your brilliant ideas. Power up and let's get hacking! 🔌",
   },
   {
     question: "Is there a participation fee?",
@@ -26,11 +22,11 @@ const faqs = [
   },
   {
     question: "What skill level is required?",
-    answer: "Everyone’s welcome, whether you’re a coding ninja or just met ‘Hello World.’ 🥷",
+    answer: "Everyone’s welcome, whether you’re a coding wizard 🧙‍♂️ or just met ‘Hello World.’",
   },
   {
     question: "Will Wi-Fi and food be provided?",
-    answer: "Of course! Stay connected and full of energy. No hangry hackers here! 🍔",
+    answer: "Of course! Stay connected and full of energy. No hungry hackers here! 🍔",
   },
   {
     question: "How are projects judged?",
@@ -38,7 +34,7 @@ const faqs = [
   },
   {
     question: "Where can I get more answers?",
-    answer: "Still curious? Join our WhatsApp group and bombard us with questions! 📱",
+    answer: "Still curious? Connect with us through the links below and feel free to reach out anytime! 📱",
   },
   {
     question: "Is the hackathon online or offline?",
