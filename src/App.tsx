@@ -12,7 +12,7 @@ import { Footer } from './components/Footer';
 import { PrizePool } from './components/PrizePool';
 import { Code2, Wifi, Coffee, Gift } from 'lucide-react';
 import {  Bed, Bus, Medal, Book, Smile } from 'lucide-react';
-
+import { RoadmapSection } from './components/RoadmapSection';
 import backgroundSvg from './assets/bgsvg.webp';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { AboutSection } from './components/AboutSection';
@@ -103,6 +103,8 @@ function App() {
 
       {/* About Section */}
      <AboutSection/>
+
+      <RoadmapSection />
 
       {/* Amenities Section */}
       <Section id="amenities" title="What We Offer" className="bg-black-dark"  style={{ backgroundColor: 'rgba(1, 1, 7, 0.7)' }}>
