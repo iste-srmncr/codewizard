@@ -4,26 +4,27 @@ import { ProblemBox } from './ProblemBox';
 
 const problems = [
   {
-    title: 'AI-Powered Healthcare Assistant',
-    description: 'Design an AI system that helps medical professionals analyze patient data and suggest potential diagnoses based on symptoms and medical history.',
+    title: 'AI-Powered Healthcare Assistant [SAMPLE]',
+    description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Smart City Traffic Management',
-    description: 'Create a solution that optimizes traffic flow in urban areas using real-time data from various sources to reduce congestion and improve emergency response times.',
+    title: 'Smart City Traffic Management [SAMPLE]',
+    description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Sustainable Energy Monitor',
-    description: 'Develop a platform that tracks and optimizes energy consumption in buildings, providing real-time analytics and suggestions for reducing carbon footprint.',
+    title: 'Sustainable Energy Monitor [SAMPLE]',
+    description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Educational Resource Equalizer',
-    description: 'Build a system that helps distribute educational resources fairly across different regions, considering factors like population density and existing infrastructure.',
+    title: 'Educational Resource Equalizer [SAMPLE]',
+    description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Supply Chain Optimizer',
-    description: 'Create an intelligent system that predicts and prevents supply chain disruptions using machine learning and real-time monitoring.',
+    title: 'Supply Chain Optimizer [SAMPLE]',
+    description: 'This is where the problem will be briefly described [SAMPLE]',
   },
 ];
+
 
 export function ProblemStatementsSection() {
   const [unlockedProblems, setUnlockedProblems] = useState<number[]>([]);

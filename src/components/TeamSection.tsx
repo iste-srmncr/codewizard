@@ -4,28 +4,30 @@ import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresen
 
 const teamMembers = {
   organizer: [
-    { name: 'Jennifer Lee', role: 'Event Director', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e' },
-    { name: 'Alex Rivera', role: 'Project Manager', image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36' },
-    { name: 'Marcus Chen', role: 'Technical Lead', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d' },
-    { name: 'Sarah Johnson', role: 'Full Stack Developer', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330' },
-    { name: 'Marcus Chen', role: 'Technical Lead', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d' },
-    { name: 'Sarah Johnson', role: 'Full Stack Developer', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330' },
+    { name: 'Hardik Behal', role: 'Event Organiser', image: 'https://www.istesrmncr.in/images/team/IMG_0767%20-%20Hardik%20Behal.jpeg' },
+    { name: 'Saksham Bhardwaj', role: 'Event Organiser', image: 'https://www.istesrmncr.in/images/team/SakshamBhardwaj.png' },
+    { name: 'Arpita Sharma', role: 'Event Organiser', image: 'https://www.istesrmncr.in/images/team/arpsha%20-%20ARPITA%20SHARMA%20(RA2211003030100).jpg' },
+    { name: 'Kartikey Mittal', role: 'Tech Lead', image: 'https://www.istesrmncr.in/images/team/Kartikey-Mittal.jpg' },
+    { name: 'Anushka Jha', role: 'Content Lead', image: 'https://www.istesrmncr.in/images/team/anujha%20-%20Anushka%20Jha.jpeg' },
+    { name: 'Sneha Singh', role: 'Publicity Lead', image: 'https://www.istesrmncr.in/images/team/IMG-20241005-WA0068%20-%20Sneha%20Singh.jpg' },
+    { name: 'Srishti Ahuja', role: 'PR Lead', image: 'https://www.istesrmncr.in/images/team/IMG-20240306-WA0020%20-%20Srishti%20Ahuja.jpg' },
+    { name: 'Yash Sharma', role: 'Creative Lead', image: 'https://www.istesrmncr.in/images/team/YASSHA%20-%20Yash%20Sharma.JPG' },
+    { name: 'Saksham Dwivedi', role: 'Social Lead', image: 'https://www.istesrmncr.in/images/team/sdw1.png' },
+    { name: 'Ayush Sharma', role: 'Creative Lead', image: 'https://www.istesrmncr.in/images/team/ayush-sharma.jpg' }
   ],
   tech: [
-    { name: 'Marcus Chen', role: 'Technical Lead', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d' },
-    { name: 'Sarah Johnson', role: 'Full Stack Developer', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330' },
+    { name: 'Kartikey Mittal', role: 'Tech Lead', image: 'https://www.istesrmncr.in/images/team/Kartikey-Mittal.jpg' },
+    { name: 'Akash Deep', role: 'Co Tech Lead', image: 'https://www.istesrmncr.in/images/team/akash%20deep.jpg' },
+    
   ],
   PR: [
-    { name: 'Sophia Patel', role: 'PR Manager', image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e' },
-    { name: 'Michael Brown', role: 'Media Relations', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d' },
+    { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
   Design: [
-    { name: 'Emma Wilson', role: 'Social Media Strategist', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb' },
-    { name: 'David Lee', role: 'Content Creator', image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6' },
+    { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
   Management: [
-    { name: 'Emma Wilson', role: 'Social Media Strategist', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb' },
-    { name: 'David Lee', role: 'Content Creator', image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6' },
+    { name: 'Unknown Name', role: 'Lead', image: 'https://static.vecteezy.com/system/resources/previews/036/280/650/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg' },
   ],
 };
 
@@ -64,28 +66,27 @@ export function TeamSection() {
 
         {/* Team Members Flexbox Layout with animation */}
         <div className="transition-all duration-300 ease-in-out">
-        <AnimatePresence mode="wait">
-  {Object.entries(teamMembers).map(([category, members]) =>
-    activeTab === category ? (
-      <motion.div
-        key={category}
-        className="flex flex-wrap justify-center items-center gap-20"
-        initial={{ opacity: 0, x: 100 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -100 }}
-        transition={{
-          duration: 0.3, // Adjust duration for smoothness
-          ease: "easeInOut", // Use easing for smoother transitions
-        }}
-        layout // Add this prop for smoother layout transitions
-      >
-        {members.map((member, index) => (
-          <TeamMember key={index} {...member} />
-        ))}
-      </motion.div>
-    ) : null
-  )}
-</AnimatePresence>
+          <AnimatePresence mode="wait">
+            {Object.entries(teamMembers).map(([category, members]) =>
+              activeTab === category ? (
+                <motion.div
+                  key={category}
+                  className="flex flex-wrap justify-center items-center gap-10"
+                  initial={{ opacity: 0, x: 50 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -50 }}
+                  transition={{
+                    duration: 0.2, // Reduced duration for smoothness
+                    ease: "easeInOut", // Use easing for smoother transitions
+                  }}
+                >
+                  {members.map((member, index) => (
+                    <TeamMember key={index} {...member} />
+                  ))}
+                </motion.div>
+              ) : null
+            )}
+          </AnimatePresence>
         </div>
       </div>
     </Section>

@@ -2,14 +2,14 @@
 import { Section } from './Section';
 
 const sponsors = [
-  { name: 'TechCorp', tier: 'platinum', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'DevHub', tier: 'gold', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'CloudNet', tier: 'gold', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'CodeLabs', tier: 'silver', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'https://i.pinimg.com/474x/6e/39/83/6e3983ef421a6536731ab1123d847d60.jpg' },
+  { name: 'TechCorp', tier: 'platinum', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'DevHub', tier: 'gold', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'CloudNet', tier: 'gold', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'CodeLabs', tier: 'silver', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'DataFlow', tier: 'silver', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'AIVentures', tier: 'bronze', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'DataFlow', tier: 'silver', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
+  { name: 'AIVentures', tier: 'bronze', imageUrl: 'https://media.istockphoto.com/id/837692166/photo/sponsors-welcome.jpg?s=612x612&w=0&k=20&c=ODAtSavpaDwlwD_DM9j1ue_rba9jH1VIPSFTOUDxpwY=' },
 ];
 
 export function SponsorsSection() {
