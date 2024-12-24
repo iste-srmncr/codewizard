@@ -52,7 +52,7 @@ export function Navbar() {
               </a>
             ))}
             <button className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full transition-colors" style={{border:"1px solid #fff4a3"}}>
-              Register Now
+              Registrations Opening Soon
             </button>
           </div>
 
@@ -79,7 +79,7 @@ export function Navbar() {
               </a>
             ))}
             <button className="w-full bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full mt-4 transition-colors" style={{border:"1px solid #fff4a3"}}>
-              Register Now
+              Registrations Opening Soon
             </button>
           </div>
         )}

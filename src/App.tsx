@@ -103,7 +103,7 @@ function App() {
             <CountdownTimer />
           </div>
           <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors" style={{border:"1px solid #fff4a3",}}>
-            Register Now
+            Registrations Opening Soon
           </button>
         </div>
       </section>
