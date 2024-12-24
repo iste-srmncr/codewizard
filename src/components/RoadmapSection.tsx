@@ -176,7 +176,7 @@ export function RoadmapSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.2 }}
               >
                 <div className="absolute left-4 md:left-1/2 w-4 h-4 rounded-full bg-purple-600 transform -translate-x-2 mt-6">
                   <div className="absolute w-8 h-8 rounded-full bg-purple-600/20 transform -translate-x-2 -translate-y-2 animate-pulse" />

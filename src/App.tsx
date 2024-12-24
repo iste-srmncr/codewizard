@@ -21,10 +21,11 @@ function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
     { icon: <Coffee className="w-8 h-8" />, title: 'Free Food & Drinks', description: 'Keep energized throughout the event' },
+    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Enjoy free transport services from the nearest metro station.' },
+    { icon: <Bed className="w-8 h-8" />, title: 'Accommodation', description: 'Comfortable stay for all participants' },
     { icon: <Gift className="w-8 h-8" />, title: 'Swag Kits', description: 'Exclusive merchandise for all participants' },
     { icon: <Code2 className="w-8 h-8" />, title: 'Workshop Access', description: 'Learn from industry experts' },
-    { icon: <Bed className="w-8 h-8" />, title: 'Accommodation', description: 'Comfortable stay for all participants' },
-    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Hassle-free commute options for attendees' },
+    
     { icon: <Medal className="w-8 h-8" />, title: 'Awards & Recognition', description: 'Get rewarded for your outstanding efforts' },
     { icon: <Smile className="w-8 h-8" />, title: 'Networking Opportunities', description: 'Connect with like-minded individuals' },
 ];
@@ -46,9 +47,14 @@ function App() {
       <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
         <ParticlesBackground />
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h1 className="text-6xl font-bold mb-6 text-[#fff] bg-clip-text">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text">
             CodeWizard <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2025</span>
           </h1>
+
+          <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
+            <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent
+"> 28-29th Jan, 2025</span>
+          </h6>
           <p
   className="text-xl lg:text-2xl xl:text-3xl mb-12 text-gray-300 mx-auto"
   style={{
