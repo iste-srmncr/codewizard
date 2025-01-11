@@ -51,9 +51,19 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <button className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full transition-colors" style={{border:"1px solid #fff4a3"}}>
-              Registrations Opening Soon
-            </button>
+            <a
+              href="https://www.hackquest.io/en/hackathon/explore/CodeWizard25"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
+                style={{ border: "1px solid #fff4a3" }}
+              >
+                Register Now
+              </button>
+            </a>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,9 +88,19 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <button className="w-full bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full mt-4 transition-colors" style={{border:"1px solid #fff4a3"}}>
-              Registrations Opening Soon
-            </button>
+            <a
+              href="https://www.hackquest.io/en/hackathon/explore/CodeWizard25"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
+                style={{ border: "1px solid #fff4a3" }}
+              >
+                Register Now
+              </button>
+            </a>
+
           </div>
         )}
       </div>
