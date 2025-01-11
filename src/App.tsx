@@ -102,9 +102,19 @@ function App() {
           <div className="mb-12">
             <CountdownTimer />
           </div>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors" style={{border:"1px solid #fff4a3",}}>
-            Registrations Opening Soon
-          </button>
+          <a
+            href="https://www.hackquest.io/en/hackathon/explore/CodeWizard25"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
+              style={{ border: "1px solid #fff4a3" }}
+            >
+              Register Now
+            </button>
+          </a>
+
         </div>
       </section>
 
@@ -128,10 +138,10 @@ function App() {
 
       <PrizePool />
       <ProblemStatementsSection />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <PastSponsorsSection/>
-      <JudgesSection/>
-      <MentorsSection />
+      {/* <JudgesSection/> */}
+      {/* <MentorsSection /> */}
     
       <TeamSection />
       <FAQSection />
