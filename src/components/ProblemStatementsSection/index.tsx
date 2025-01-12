@@ -4,23 +4,23 @@ import { ProblemBox } from './ProblemBox';
 
 const problems = [
   {
-    title: 'AI-Powered Healthcare Assistant [SAMPLE]',
+    title: 'Secret Problem Statement 🤐',
     description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Smart City Traffic Management [SAMPLE]',
+    title: 'Secret Problem Statement 🤐',
     description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Sustainable Energy Monitor [SAMPLE]',
+    title: 'Secret Problem Statement 🤐',
     description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Educational Resource Equalizer [SAMPLE]',
+    title: 'Secret Problem Statement 🤐',
     description: 'This is where the problem will be briefly described [SAMPLE]',
   },
   {
-    title: 'Supply Chain Optimizer [SAMPLE]',
+    title: 'Secret Problem Statement 🤐',
     description: 'This is where the problem will be briefly described [SAMPLE]',
   },
 ];

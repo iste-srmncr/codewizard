@@ -138,7 +138,7 @@ function App() {
 
       <PrizePool />
       <ProblemStatementsSection />
-      {/* <SponsorsSection /> */}
+      <SponsorsSection />
       <PastSponsorsSection/>
       {/* <JudgesSection/> */}
       {/* <MentorsSection /> */}
