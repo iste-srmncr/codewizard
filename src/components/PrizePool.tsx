@@ -25,7 +25,7 @@ const prizes = [
   },
   {
     place: 'And More',
-    amount: 'Track prize worth\nUSD 1200',
+    amount: 'Track prize worth\n ₹2.5 Lakhs',
     icon: <Gift className="w-12 h-12 text-purple-400" />,
     description: 'Category-specific prizes for innovation, design, and impact',
     gradient: 'from-purple-400 via-purple-300 to-purple-400'
