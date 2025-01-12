@@ -6,7 +6,6 @@ const sponsors = [
   { name: 'Coding Blocks', tier: 'gold', imageUrl: 'https://blog.codingblocks.com/content/images/size/w1000/2018/11/Logo_White_-NoShadow.png', url: 'https://codingblocks.com/' },
   { name: 'DevDocs', tier: 'silver', imageUrl: 'https://devdocs.io/images/icon-320.png', url: 'https://devdocs.io/' },
   { name: 'Interview Buddy', tier: 'silver', imageUrl: 'https://interviewbuddy.net/assests/logos/old-ib-logo.svg', url: 'https://interviewbuddy.net/' },
-  { name: 'Rise In', tier: 'bronze', imageUrl: 'https://i.ibb.co/Fx4XfRr/Screenshot-2025-01-12-150538.png', url: 'https://www.risein.com/' },
   { name: 'gen.xyz', tier: 'silver', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png', url: 'https://gen.xyz/' },
 ];
 
