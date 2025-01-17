@@ -4,7 +4,9 @@ const sponsors = [
   { name: '0x.day', tier: 'platinum', imageUrl: 'https://i.ibb.co/4NrvXbG/0x-Day.png', url: 'https://0x.day/' },
   { name: 'HackQuest', tier: 'gold', imageUrl: 'https://pbs.twimg.com/profile_images/1734099293676396544/jIdC7NYM_400x400.jpg', url: 'https://hackquest.io/en' },
   { name: 'Coding Blocks', tier: 'gold', imageUrl: 'https://blog.codingblocks.com/content/images/size/w1000/2018/11/Logo_White_-NoShadow.png', url: 'https://codingblocks.com/' },
+  { name: 'EXPLORERS COMPANY', tier: 'gold', imageUrl: 'https://ugc.production.linktr.ee/yxjvusj4RuG0iLkbmzGy_2uzW9AQNsqw3xQc6?io=true&size=avatar-v3_0', url: 'https://www.instagram.com/explorers_company/' },
   { name: 'DevDocks.ai', tier: 'silver', imageUrl: 'https://pbs.twimg.com/profile_images/1854967586674425856/KtgsHH0u_400x400.jpg', url: 'https://devdock.ai/' },
+  { name: 'FlatLogic', tier: 'silver', imageUrl: 'https://avatars.githubusercontent.com/u/8533408?s=280&v=4', url: 'https://flatlogic.com/' },
   { name: 'Interview Buddy', tier: 'silver', imageUrl: 'https://interviewbuddy.net/assests/logos/old-ib-logo.svg', url: 'https://interviewbuddy.net/' },
   { name: 'gen.xyz', tier: 'silver', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png', url: 'https://gen.xyz/' },
 ];
