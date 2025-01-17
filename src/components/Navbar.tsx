@@ -52,7 +52,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://www.hackquest.io/en/hackathon/explore/CodeWizard25"
+              href="https://rentry.co/codewizard25"
               target="_blank"
               rel="noopener noreferrer"
             >
