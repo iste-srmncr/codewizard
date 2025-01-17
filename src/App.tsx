@@ -103,7 +103,7 @@ function App() {
             <CountdownTimer />
           </div>
           <a
-            href="https://www.hackquest.io/hackathons/CodeWizard25"
+            href="https://rentry.co/codewizard25"
             target="_blank"
             rel="noopener noreferrer"
           >
