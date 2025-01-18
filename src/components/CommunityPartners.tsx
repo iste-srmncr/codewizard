@@ -2,9 +2,9 @@ import { Section } from './Section';
 
 const community = [
 
-    { name: 'ReSkilll', tier: 'platinum', imageUrl: 'https://i.ibb.co/Qdw0VV5/reskilll-1.png', url: 'https://reskilll.com/' },
-    { name: 'GeekRoom', tier: 'platinum', imageUrl: 'https://i.ibb.co/tM3nSfH/geekroom.jpg', url: 'https://www.geekroom.in/' },
-    { name: 'theDevArmy', tier: 'platinum', imageUrl: 'https://i.ibb.co/42G4jSN/cropped-Logo-Group-1.png', url: 'https://thedevarmy.com/' },
+    { name: 'ReSkilll', tier: 'gold', imageUrl: 'https://i.ibb.co/Qdw0VV5/reskilll-1.png', url: 'https://reskilll.com/' },
+    { name: 'GeekRoom', tier: 'gold', imageUrl: 'https://i.ibb.co/tM3nSfH/geekroom.jpg', url: 'https://www.geekroom.in/' },
+    { name: 'theDevArmy', tier: 'gold', imageUrl: 'https://i.ibb.co/42G4jSN/cropped-Logo-Group-1.png', url: 'https://thedevarmy.com/' },
 ];
 
 export function CommunityPartners() {
