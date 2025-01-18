@@ -89,7 +89,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://www.hackquest.io/en/hackathon/explore/CodeWizard25"
+              href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
               target="_blank"
               rel="noopener noreferrer"
             >
