@@ -104,7 +104,7 @@ function App() {
             <CountdownTimer />
           </div>
           <a
-            href="https://rentry.co/codewizard25"
+            href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
             target="_blank"
             rel="noopener noreferrer"
           >
