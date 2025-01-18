@@ -3,7 +3,7 @@ import { Section } from './Section';
 const sponsors = [
 
   { name: '0x.day', tier: 'platinum', imageUrl: 'https://i.ibb.co/4NrvXbG/0x-Day.png', url: 'https://0x.day/' },
-  { name: 'HackQuest', tier: 'gold', imageUrl: 'https://pbs.twimg.com/profile_images/1734099293676396544/jIdC7NYM_400x400.jpg', url: 'https://hackquest.io/en' },
+  { name: 'DoraHacks', tier: 'gold', imageUrl: 'https://media.licdn.com/dms/image/v2/C560BAQGkE3LXE54TSw/company-logo_200_200/company-logo_200_200/0/1636729801714/dorahacks_logo?e=2147483647&v=beta&t=KfvgydRECMTjVhs8v9G-R8zmgKniEa9n41qddvcHL-A', url: 'https://dorahacks.io/hackathon/' },
   { name: 'Coding Blocks', tier: 'gold', imageUrl: 'https://blog.codingblocks.com/content/images/size/w1000/2018/11/Logo_White_-NoShadow.png', url: 'https://codingblocks.com/' },
   { name: 'EXPLORERS COMPANY', tier: 'gold', imageUrl: 'https://ugc.production.linktr.ee/yxjvusj4RuG0iLkbmzGy_2uzW9AQNsqw3xQc6?io=true&size=avatar-v3_0', url: 'https://www.instagram.com/explorers_company/' },
   { name: 'DevDocks.ai', tier: 'silver', imageUrl: 'https://pbs.twimg.com/profile_images/1854967586674425856/KtgsHH0u_400x400.jpg', url: 'https://devdock.ai/' },
