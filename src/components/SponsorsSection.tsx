@@ -10,7 +10,7 @@ const sponsors = [
   { name: 'Interview Buddy', tier: 'silver', imageUrl: 'https://interviewbuddy.net/assests/logos/old-ib-logo.svg', url: 'https://interviewbuddy.net/' },
   { name: 'gen.xyz', tier: 'silver', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png', url: 'https://gen.xyz/' },
   { name: 'Budweiser', tier: 'silver', imageUrl: 'https://i.ibb.co/TWVthqB/budweiser.png', url: 'https://www.budweiser.com/en' },
-  { name: 'AoPS Online', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhwsUBSbaHw3WEOhjJQYuwzRtH3Zx6200ag&s', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhwsUBSbaHw3WEOhjJQYuwzRtH3Zx6200ag&s' },
+  { name: 'AoPS Online', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhwsUBSbaHw3WEOhjJQYuwzRtH3Zx6200ag&s', url: 'https://artofproblemsolving.com/school?srsltid=AfmBOooRg6kDtgPYKd8Jxw_BTfNZoUwaWcs5vla9l8JnjaJHBYJ46unx' },
 ];
 
 export function SponsorsSection() {
