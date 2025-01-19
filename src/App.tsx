@@ -30,7 +30,7 @@ function App() {
     { icon: <Medal className="w-8 h-8" />, title: 'Awards & Recognition', description: 'Get rewarded for your outstanding efforts' },
     { icon: <Smile className="w-8 h-8" />, title: 'Networking Opportunities', description: 'Connect with like-minded individuals' },
   ];
-
+// jnj
 
   return (
     <div
