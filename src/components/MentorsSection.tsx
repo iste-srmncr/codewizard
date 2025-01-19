@@ -4,36 +4,47 @@ import { PersonCard } from './PersonCard';
 
 const mentors = [
   {
-    name: 'Mentor Name',
-    role: 'Role',
-    image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
+    name: 'Manas Chopra',
+    role: 'Co-Founder, GeekRoom',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQF3dMwwm5HxkQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727488349496?e=1743033600&v=beta&t=UAGl7KGK-YYVX9wOq8_V2x6zGlNJ2CuRx-a5vwgdp6M',
     expertise: 'Cloud Architecture',
     social: {
-      github: 'https://github.com/davidkim',
-      linkedin: 'https://www.linkedin.com/in/davidkim',
-      instagram: 'https://www.instagram.com/davidkim'
+    
+      linkedin: 'https://www.linkedin.com/in/themanas95826/',
+      instagram: 'https://www.instagram.com/themanas.ai/'
     }
   },
   {
-    name: 'Mentor Name',
-    role: 'Role',
-    image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
+    name: 'Pratham Batra',
+    role: 'Co-Founder, GeekRoom',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQEpB4pG9Liivg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702434558476?e=1743033600&v=beta&t=5pZTJR5XpDSGx28QXW8Jw5Oje1F3XQqjiM1OdDre0UU',
     expertise: 'Product Strategy',
     social: {
-      github: 'https://github.com/lisajohnson',
-      linkedin: 'https://www.linkedin.com/in/lisajohnson',
-      instagram: 'https://www.instagram.com/lisajohnson'
+     
+      linkedin: 'https://www.linkedin.com/in/pratham1908/',
+     
     }
   },
   {
-    name: 'Mentor Name',
-    role: 'Role',
-    image: 'https://thumbs.dreamstime.com/b/single-gray-square-simple-human-silhouette-inside-light-background-minimalistic-clean-design-eps-340598362.jpg',
+    name: 'Sanidhya Goel',
+    role: 'President, GeekRoom',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE5W6rOwfsPxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709818256510?e=1743033600&v=beta&t=nXMFXDgxWs2xMnsZ1EjHSehMlE9f9hV5zvY3gqHHy90',
     expertise: 'User Experience',
     social: {
-      github: 'https://github.com/alexrivera',
-      linkedin: 'https://www.linkedin.com/in/alexrivera',
-      instagram: 'https://www.instagram.com/alexrivera'
+     
+      linkedin: 'https://www.linkedin.com/in/sanidhya-goel-2499991b1/',
+ 
+    }
+  },
+  {
+    name: 'Mannas Narang',
+    role: 'Software Engineer @wander',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE5W6rOwfsPxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709818256510?e=1743033600&v=beta&t=nXMFXDgxWs2xMnsZ1EjHSehMlE9f9hV5zvY3gqHHy90',
+    expertise: 'User Experience',
+    social: {
+     
+      linkedin: 'https://www.linkedin.com/in/mannasnarang/',
+ 
     }
   },
 ];
