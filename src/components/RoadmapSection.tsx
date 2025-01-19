@@ -6,25 +6,25 @@ import { motion, AnimatePresence } from 'framer-motion';
 const timelineData = {
   registration: [
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Registration Open',
       icon: <SquarePen className="w-6 h-6" />,
       description: 'Kickstart your journey by registering for the event.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Team Formation',
       icon: <Users className="w-6 h-6" />,
       description: 'Find your teammates and form a strong team.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Problem Statement Release Date',
       icon: <FileCode2 className="w-6 h-6" />,
       description: 'Understand the challenge you will tackle.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Hack Begins Date',
       icon: <Code2 className="w-6 h-6" />,
       description: 'Start your hackathon journey.'
