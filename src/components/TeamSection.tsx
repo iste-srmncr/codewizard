@@ -19,6 +19,10 @@ const teamMembers = {
   tech: [
     { name: 'Kartikey Mittal', role: 'Tech Lead', image: 'https://www.istesrmncr.in/images/team/Kartikey-Mittal.jpg' },
     { name: 'Akash Deep', role: 'Co Tech Lead', image: 'https://www.istesrmncr.in/images/team/akash%20deep.jpg' },
+    { name: 'Ashwani Kumar', role: 'Tech Crew', image: 'https://www.istesrmncr.in/images/team/Ashwani%20Kumar.jpeg' },
+    { name: 'Lakshay Jain', role: 'Tech Crew', image: 'https://www.istesrmncr.in/images/team/LakshayJain.jpg' },
+    { name: 'Aviral Saxena', role: 'Tech Crew', image: 'https://www.istesrmncr.in/images/team/aviena%20-%20AVIRAL%20SAXENA.jpeg' },
+    
     
   ],
   PR: [
