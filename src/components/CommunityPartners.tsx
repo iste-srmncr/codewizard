@@ -6,7 +6,7 @@ const community = [
     { name: 'GeekRoom', tier: 'gold', imageUrl: 'https://i.ibb.co/tM3nSfH/geekroom.jpg', url: 'https://www.geekroom.in/' },
     { name: 'theDevArmy', tier: 'gold', imageUrl: 'https://i.ibb.co/42G4jSN/cropped-Logo-Group-1.png', url: 'https://thedevarmy.com/' },
     { name: 'Web Forge', tier: 'gold', imageUrl: 'https://i.ibb.co/MDqpHP5/WebForge.png', url: 'https://bento.me/webforge' },
-    { name: 'The Global Hues', tier: 'silver', imageUrl: 'https://media.licdn.com/dms/image/v2/C4D0BAQH-v9FDjtaPzA/company-logo_200_200/company-logo_200_200/0/1663179453334?e=1745452800&v=beta&t=yy6CN7llzU1t69fFkBx1tE_j7SnBz_QCr_h0cCOht_g', url: 'https://media.licdn.com/dms/image/v2/C4D0BAQH-v9FDjtaPzA/company-logo_200_200/company-logo_200_200/0/1663179453334?e=1745452800&v=beta&t=yy6CN7llzU1t69fFkBx1tE_j7SnBz_QCr_h0cCOht_g' },
+    { name: 'The Global Hues', tier: 'silver', imageUrl: 'https://media.licdn.com/dms/image/v2/C4D0BAQH-v9FDjtaPzA/company-logo_200_200/company-logo_200_200/0/1663179453334?e=1745452800&v=beta&t=yy6CN7llzU1t69fFkBx1tE_j7SnBz_QCr_h0cCOht_g', url: 'https://theglobalhues.com/' },
 ];
 
 export function CommunityPartners() {
