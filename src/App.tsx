@@ -142,7 +142,7 @@ function App() {
       <SponsorsSection />
       <CommunityPartners />
       <PastSponsorsSection />
-      {/* <JudgesSection/> */}
+      <JudgesSection/>
       <MentorsSection />
       <TeamSection />
       <FAQSection />
