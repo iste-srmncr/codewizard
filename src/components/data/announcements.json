@@ -1,0 +1,43 @@
+{
+    "announcements": [
+        {
+            "id": 5,
+            "title": "🚨 CodeWizard Registration Update 🚨",
+            "content": "<h2>🚨 Attention, Code Wizards! 🚨</h2><p>We’re absolutely <strong>thrilled</strong> to have you all onboard! 🎉 <br> <strong>800+ registrations</strong> already in the bag! 🙌</p><p>However, we’ve noticed that many teams still have <strong>incomplete registrations</strong>. 😬</p><p>We need your <strong>complete registration</strong> ASAP to move forward and shortlist teams quickly! ⚡ Don’t leave it for the last minute—let’s get it done so we don’t face any delays! ⏳</p><p>Complete your registration now and get ready to shine! 🌟💪</p><p>We can’t wait to see your brilliance! ✨</p>",
+            "date": "2025-01-21 | 22:00",
+            "sender": "Kartikey Mittal",
+            "isLatest": true
+          }
+,          
+      {
+        "id": 4,
+        "title": "0xProfile Retrieval Feature",
+        "content": "<h2>🚨 Attention, forgetful legends!</h2><p>The Tech Team got so overwhelmed with people asking for their 0xProfile (we nearly developed RSI from typing 😅) that we birthed this masterpiece of a feature! 🎉</p><p>Now, for all you username amnesia victims 🤦‍♂🤦‍♀, simply head over to:<br><a href='https://whatismy0xprofile.vercel.app'>👉 https://whatismy0xprofile.vercel.app 👈</a></p><p>Remember, this only works for previous participants—new folks, sorry, you're on your own! 🤷‍♂ You're welcome! 🎉✨</p>",
+        "date": "2025-01-20 | 21:33",
+        "sender": "Akash Deep",
+        "isLatest": false
+      },
+      {
+        "id": 3,
+        "title": "Profile Update Tip",
+        "content": "<h2>✨ Profile Update Tip</h2><p>Hey everyone! 🚨 Quick tip: To improve your chances of getting shortlisted, make sure to update your LinkedIn and GitHub profiles on Unstop, along with a killer 'About' section! 💻✨ Let your profile do the talking—shine bright and stand out! 🌟🚀</p>",
+        "date": "2025-01-20 | 18:58",
+        "sender": "Akash Deep"
+      },
+      {
+        "id": 2,
+        "title": "0xProfile Requirement",
+        "content": "<h2>⚠️ 0xProfile is Mandatory! 🚨</h2><p>We’ll be using 0x.day’s hackathon management software, and your credentials will be provided according to your 0xProfile. Therefore, it’s essential that every team member has their own 0xProfile! 💼🔑</p><p>Don't miss out—set it up now and stay ahead! 💪🚀</p>",
+        "date": "2025-01-20 | 18:57",
+        "sender": "Kartikey Mittal"
+      },
+      {
+        "id": 1,
+        "title": "Mandatory Task Completion",
+        "content": "<h2>Important Notice 🚨</h2><p>As part of the hackathon requirements, each team member must individually complete the mandatory task using the form linked below. 📋✅</p><ol><li>Verified during the shortlisting process. ✅</li><li>Failure to complete may affect your team’s eligibility. ❌</li></ol><p><a href='https://forms.gle/SMsLW3vMravDhqZq9'>🔗 Form Link</a></p>",
+        "date": "2025-01-20 | 18:57",
+        "sender": "Kartikey Mittal"
+      }
+    ]
+  }
+  
