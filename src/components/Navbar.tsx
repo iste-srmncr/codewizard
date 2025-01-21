@@ -27,6 +27,7 @@ export function Navbar() {
     { href: '#judges', label: 'Judges' },
     { href: '#mentors', label: 'Mentors' },
     { href: '#team', label: 'Team' },
+    { href: '/updates', label: 'Updates' },
   ];
 
   return (

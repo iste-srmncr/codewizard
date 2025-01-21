@@ -1,7 +1,14 @@
 import React from 'react';
-import { Trophy, Award, Medal, Gift } from 'lucide-react';
+import { Trophy, Award, Medal, Gift,Plane } from 'lucide-react';
 
 const prizes = [
+  {
+    place: 'Prize Pool Worth',
+    amount: ' ₹2.5 Lakhs',
+    icon: <Gift className="w-12 h-12 text-purple-400" />,
+    description: 'Category-specific prizes for innovation, design, and impact',
+    gradient: 'from-purple-400 via-purple-300 to-purple-400'
+  },
   {
     place: '1st Place',
     amount: '₹15,000',
@@ -20,16 +27,17 @@ const prizes = [
     place: '3rd Place',
     amount: '₹5,000',
     icon: <Medal className="w-12 h-12 text-amber-600" />,
-    description: 'Bronze prize package with valuable rewards',
+    description: 'Bronze prize package with valuable rewards and cash',
     gradient: 'from-amber-600 via-amber-500 to-amber-600'
   },
   {
-    place: 'And More',
-    amount: 'Track prize worth\n ₹2.5 Lakhs',
-    icon: <Gift className="w-12 h-12 text-purple-400" />,
-    description: 'Category-specific prizes for innovation, design, and impact',
-    gradient: 'from-purple-400 via-purple-300 to-purple-400'
-  }
+    place: 'Free Sponsored Trips',
+    amount: '',
+    icon: <Plane className="w-12 h-12 text-amber-600" />,
+    description: 'Get a chance to grab a free sponsored trip!',
+    gradient: 'from-amber-600 via-amber-500 to-amber-600'
+},
+
 ];
 
 export function PrizePool() {
@@ -73,7 +81,7 @@ export function PrizePool() {
 
           {/* Second row with 2nd Place and 3rd Place */}
           <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 max-w-screen-md mx-auto">
-            {prizes.slice(1, 3).map((prize, index) => (
+            {prizes.slice(1, 4).map((prize, index) => (
               <div key={index} className="w-full md:w-1/2">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"
@@ -100,18 +108,18 @@ export function PrizePool() {
           <div className="w-full max-w-md mx-auto">
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"
-                style={{ background: `linear-gradient(to right, ${prizes[3].gradient})` }}
+                style={{ background: `linear-gradient(to right, ${prizes[4].gradient})` }}
               />
               <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105" style={{border:"0.5px solid #2d2d2f"}}>
                 <div className="flex justify-center mb-4">
-                  {prizes[3].icon}
+                  {prizes[4].icon}
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-center">{prizes[3].place}</h3>
-                <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prizes[3].gradient} bg-clip-text text-transparent`}>
-                  {prizes[3].amount}
+                <h3 className="text-xl font-bold mb-2 text-center">{prizes[4].place}</h3>
+                <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prizes[4].gradient} bg-clip-text text-transparent`}>
+                  {prizes[4].amount}
                 </div>
                 <p className="text-gray-400 text-center text-sm">
-                  {prizes[3].description}
+                  {prizes[4].description}
                 </p>
               </div>
             </div>

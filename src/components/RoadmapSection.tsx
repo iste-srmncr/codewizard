@@ -6,25 +6,25 @@ import { motion, AnimatePresence } from 'framer-motion';
 const timelineData = {
   registration: [
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Registration Open',
       icon: <SquarePen className="w-6 h-6" />,
       description: 'Kickstart your journey by registering for the event.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Team Formation',
       icon: <Users className="w-6 h-6" />,
       description: 'Find your teammates and form a strong team.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Problem Statement Release Date',
       icon: <FileCode2 className="w-6 h-6" />,
       description: 'Understand the challenge you will tackle.'
     },
     {
-      time: 'N/A',
+      // time: 'N/A',
       title: 'Hack Begins Date',
       icon: <Code2 className="w-6 h-6" />,
       description: 'Start your hackathon journey.'
@@ -49,24 +49,24 @@ const timelineData = {
       icon: <Code2 className="w-6 h-6" />,
       description: 'Begin building your projects.'
     },
-    {
-      time: '02:00 PM',
-      title: 'Lunch',
-      icon: <Pizza className="w-6 h-6" />,
-      description: 'Refuel yourself for the rest of the day.'
-    },
+    // {
+    //   time: '02:00 PM',
+    //   title: 'Lunch',
+    //   icon: <Pizza className="w-6 h-6" />,
+    //   description: 'Refuel yourself for the rest of the day.'
+    // },
     {
       time: '04:00 PM - 06:00 PM',
       title: 'Mentorship Sessions',
       icon: <Users className="w-6 h-6" />,
       description: 'Get guidance from industry experts.'
     },
-    {
-      time: '07:00 PM - 08:00 PM',
-      title: 'Concode',
-      icon: <Code2 className="w-6 h-6" />,
-      description: 'Engage in fun coding challenges.'
-    },
+    // {
+    //   time: '07:00 PM - 08:00 PM',
+    //   title: 'Concode',
+    //   icon: <Code2 className="w-6 h-6" />,
+    //   description: 'Engage in fun coding challenges.'
+    // },
     {
       time: '08:00 PM',
       title: 'Dinner',
@@ -87,12 +87,12 @@ const timelineData = {
       icon: <Upload className="w-6 h-6" />,
       description: 'Submit your final projects.'
     },
-    {
-      time: '10:00 AM',
-      title: 'Breakfast',
-      icon: <Pizza className="w-6 h-6" />,
-      description: 'Start your day with a hearty meal.'
-    },
+    // {
+    //   time: '10:00 AM',
+    //   title: 'Breakfast',
+    //   icon: <Pizza className="w-6 h-6" />,
+    //   description: 'Start your day with a hearty meal.'
+    // },
     {
       time: '12:00 PM',
       title: 'Shortlisting Team Declared',
