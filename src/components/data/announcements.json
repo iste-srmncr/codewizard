@@ -1,5 +1,14 @@
 {
     "announcements": [
+
+      {
+        "id": 6,
+        "title": "📧 Shortlisting Update for CodeWizard'25",
+        "content": "<h2>📢 Attention CodeWizard'25 Participants!</h2><p>We’re excited to announce that <strong>emails have been sent to the team leaders</strong> of the first batch of shortlisted teams. 🎉 Please check your inbox! 📬</p><p>This batch includes teams with members outside Delhi to ensure a quicker review process. 🚀</p><p><strong>Haven’t received an email yet?</strong> Don’t worry! Our team is actively working on reviewing remaining entries, and updates will be rolled out soon. ⏳</p><p>Stay tuned for more updates, and best of luck! 🌟💻</p>",
+        "date": "2025-01-22 | 12:00",
+        "sender": "Aviral Saxena",
+        "isLatest": true
+    },
         {
             "id": 5,
             "title": "🚨 CodeWizard Registration Update 🚨",
