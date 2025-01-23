@@ -4,7 +4,7 @@ import { Trophy, Award, Medal, Gift,Plane } from 'lucide-react';
 const prizes = [
   {
     place: 'Prize Pool Worth',
-    amount: ' ₹2.5 Lakhs',
+    amount: ' ₹3.5 Lakhs',
     icon: <Gift className="w-12 h-12 text-purple-400" />,
     description: 'Category-specific prizes for innovation, design, and impact',
     gradient: 'from-purple-400 via-purple-300 to-purple-400'
