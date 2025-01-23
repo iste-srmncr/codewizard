@@ -14,21 +14,21 @@ const mentors = [
     }
   },
   {
-    name: 'Pratham Batra',
-    role: 'Co-Founder, GeekRoom',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQEpB4pG9Liivg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702434558476?e=1743033600&v=beta&t=5pZTJR5XpDSGx28QXW8Jw5Oje1F3XQqjiM1OdDre0UU',
+    name: 'Bharat Varshney',
+    role: 'Experienced QA Leader',
+    image: 'https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.ap-south-1.amazonaws.com%2FgG8FpxdrCbx4EdUUSWr2u2.jpg&w=256&q=90&dpl=dpl_C28HUsea7X91LGm7954ReZzFnWs5',
     expertise: 'Product Strategy',
     social: {
-      linkedin: 'https://www.linkedin.com/in/pratham1908/',
+      linkedin: 'https://www.linkedin.com/in/bharatvarshney/',
     }
   },
   {
-    name: 'Sanidhya Goel',
-    role: 'President, GeekRoom',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE5W6rOwfsPxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709818256510?e=1743033600&v=beta&t=nXMFXDgxWs2xMnsZ1EjHSehMlE9f9hV5zvY3gqHHy90',
+    name: 'Harsh Kumar Jadon',
+    role: 'Founder,Kalp Studio',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQGJs_5eDs3ahg/profile-displayphoto-shrink_400_400/B56ZRmHeuoGoAg-/0/1736880025569?e=1743033600&v=beta&t=vGCKgMaZFieJQORWhc3xmPfcLzRjWNOTV-eKLWThpkI',
     expertise: 'User Experience',
     social: {
-      linkedin: 'https://www.linkedin.com/in/sanidhya-goel-2499991b1/',
+      linkedin: 'https://www.linkedin.com/in/harsh-kumar-jadon-204a15197/',
     }
   },
   {
