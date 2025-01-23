@@ -15,8 +15,8 @@ const mentors = [
   },
   {
     name: 'Bharat Varshney',
-    role: 'Experienced QA Leader',
-    image: 'https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.ap-south-1.amazonaws.com%2FgG8FpxdrCbx4EdUUSWr2u2.jpg&w=256&q=90&dpl=dpl_C28HUsea7X91LGm7954ReZzFnWs5',
+    role: 'Technical Lead',
+    image: 'https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.amazonaws.com%2FqSw7k5HpSwJ2HBBr4AT59P.jpeg&w=256&q=90&dpl=dpl_5weRPZ6Yua2171A8GFDAx6R8heJf',
     expertise: 'Product Strategy',
     social: {
       linkedin: 'https://www.linkedin.com/in/bharatvarshney/',
