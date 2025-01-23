@@ -43,7 +43,7 @@ const prizes = [
 export function PrizePool() {
   return (
     <section className="py-20 relative">
-      {/* Background decoration */}
+      {/* Background decoration hey ios the formal*/}
       <div className="absolute inset-0 opacity-100">
         <div className="absolute top-10 left-10 w-48 h-48 bg-purple-500 rounded-full filter blur-3xl" />
         <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500 rounded-full filter blur-3xl" />
