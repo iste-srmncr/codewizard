@@ -56,13 +56,13 @@ export function MentorsSection() {
   return (
     <Section id="mentors" title="Meet Your Mentors">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {mentors.slice(0, 3).map((mentor, index) => (
+        {mentors.slice(0, 5).map((mentor, index) => (
           <PersonCard key={index} {...mentor} />
         ))}
       </div>
       <div className="flex justify-center mt-8">
         <div className="w-full md:w-1/2 lg:w-1/3">
-          <PersonCard key={3} {...mentors[3]} />
+          {/* <PersonCard key={} {...mentors[4]} /> */}
         </div>
       </div>
     </Section>
