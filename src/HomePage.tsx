@@ -142,7 +142,7 @@ const HomePage = () => {
       <SponsorsSection />
       <CommunityPartners />
       <PastSponsorsSection />
-      {/* <JudgesSection/> */}
+      <JudgesSection/>
       <MentorsSection />
       <TeamSection />
       <FAQSection />
