@@ -1,5 +1,17 @@
 {
     "announcements": [
+
+      {
+        "id": 8,
+        "title": "🌟 Exciting Partnership Announcement!",
+        "content": "<h2>📢 CodeWizard'25 Partners with Spydra!</h2><p>We are excited to announce that CodeWizard'25 has partnered with <strong>Spydra</strong>, a leading blockchain platform empowering enterprises with asset tokenization for real-world impact. 🌐</p><p style='text-align: center;'><a href='https://www.spydra.app/' target='_blank' style='text-decoration: none;'><img src='https://cdn.prod.website-files.com/63c7842c42c0ed530e0e43b5/63ca68b3069ed64008a77f2b_spydra-logo-blue.png' alt='Spydra Logo' style='width: 150px; height: auto; margin: 10px 0;'></a></p><p>With Spydra’s innovative solutions, participants will experience enhanced transparency, security, and efficiency—bringing the power of blockchain to industries like supply chain, healthcare, real estate, and more. 🚀</p><p>Let’s unlock new possibilities together with Spydra at CodeWizard'25! 🌟</p>",
+        "date": "2025-01-24 | 22:30",
+        "sender": "Kartikey Mittal",
+        "isLatest": true
+    },
+    
+    
+    
       {
         "id": 7,
         "title": "📧 Shortlisting Update: Second Batch Released!",
