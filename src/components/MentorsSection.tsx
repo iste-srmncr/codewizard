@@ -3,6 +3,7 @@ import { Section } from './Section';
 import { PersonCard } from './PersonCard';
 
 const mentors = [
+  
   {
     name: 'Manas Chopra',
     role: 'Co-Founder, GeekRoom',
@@ -38,6 +39,15 @@ const mentors = [
     expertise: 'User Experience',
     social: {
       linkedin: 'https://www.linkedin.com/in/mannasnarang/',
+    }
+  },
+  {
+    name: 'Sanhitha Napa',
+    role: 'Brand Marketing Manager-Spydra',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQELLvMdg-cHBw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697033401226?e=1743033600&v=beta&t=gLCXGMwz7pCc5cLMTYHsABuEePsWNdid1MBE9Pcyp7I',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/sanhithanapa/',
+
     }
   },
 ];
