@@ -1,6 +1,13 @@
 {
     "announcements": [
-
+      {
+        "id": 7,
+        "title": "📧 Shortlisting Update: Second Batch Released!",
+        "content": "<h2>📢 Shortlisting Update: Second Batch Released!</h2><p>We’re thrilled to share that <strong>emails for the second batch of shortlisted teams</strong> have been sent. 🎉</p><p>📬 <em>Team leaders, please check your inbox!</em></p><p>If you haven’t received an email yet, hang tight—more updates are coming soon. 🚀</p><p>Best of luck to all participants! 🌟💻</p>",
+        "date": "2025-01-24 | 15:00",
+        "sender": "Lakshay Jain",
+        "isLatest": true
+    },
       {
         "id": 6,
         "title": "📧 Shortlisting Update for CodeWizard'25",
