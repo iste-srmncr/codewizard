@@ -35,15 +35,30 @@ const mentors = [
       // instagram: 'https://www.instagram.com/alexrivera'
     }
   },
+  {
+    name: 'Shubham Shakti ',
+    role: 'Founder @E-Khel ',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQHCGWfanbIvWw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693400821754?e=1743033600&v=beta&t=0U_IEKSKt8m2J6bwZGEwJ7hLGi9T9jm7jEkLWCDHfug',
+    expertise: 'WEB3',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/shubhamshaktirout/',
+      // instagram: 'https://www.instagram.com/davidkim'
+    }
+  },
 ];
 
 export function JudgesSection() {
   return (
     <Section id="judges" title="Panel of Judges">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {mentors.map((mentor, index) => (
+        {mentors.slice(0, 3).map((mentor, index) => (
           <PersonCard key={index} {...mentor} />
         ))}
+      </div>
+      <div className="flex justify-center mt-8">
+        <div className="w-full md:w-1/2 lg:w-1/3">
+          <PersonCard key={3} {...mentors[3]} />
+        </div>
       </div>
     </Section>
   );
