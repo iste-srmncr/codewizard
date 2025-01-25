@@ -49,6 +49,7 @@ const timelineData = {
       icon: <Code2 className="w-6 h-6" />,
       description: 'Begin building your projects.'
     },
+
     {
       time: '02:00 PM',
       title: 'Lunch',
@@ -56,8 +57,8 @@ const timelineData = {
       description: 'Refuel yourself for the rest of the day.'
     },
     {
-      time: '04:00 PM - 06:00 PM',
-      title: 'Mentorship Sessions',
+      time: '03:00 PM - 06:00 PM',
+      title: 'Mentorship Sessions - 1',
       icon: <Users className="w-6 h-6" />,
       description: 'Get guidance from industry experts.'
     },

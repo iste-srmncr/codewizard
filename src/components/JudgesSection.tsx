@@ -5,7 +5,7 @@ import { PersonCard } from './PersonCard';
 const mentors = [
   {
     name: 'Varun Kohli ',
-    role: 'Co-Founder , Coding Blocks',
+    role: 'CEO , Coding Blocks',
     image: 'https://media.licdn.com/dms/image/v2/C5603AQGRbbuaLUhjnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1642883534969?e=1743033600&v=beta&t=deI2POxxENw0eHEYcMCJmjJNUySbZLTPA8zInfGieEg',
     expertise: 'Cloud Architecture',
     social: {
@@ -15,7 +15,7 @@ const mentors = [
   },
   {
     name: 'Kartik Mathur',
-    role: 'Academics Head , Coding Blocks',
+    role: 'Co-Founder, Coding Blocks',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQGlGLU4MuN2DQ/profile-displayphoto-shrink_400_400/B56ZQbshyQHQAo-/0/1735631446279?e=1743033600&v=beta&t=b3WuJwaRAf1UqsdLwDh1gLfTmOuV1BBvgZJvL8awyUc',
     expertise: 'Product Strategy',
     social: {
@@ -26,7 +26,7 @@ const mentors = [
   },
   {
     name: 'Saran Kumar',
-    role: 'Founder , 0x.day ',
+    role: 'Co-Founder , 0x.day ',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQEsJrKbKQfG1g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719813329896?e=1743033600&v=beta&t=v-ZzJeRe31l7FQ4aBjwQE_Vk4Oj2HoFMuTNVXfpHfUE',
     expertise: 'User Experience',
     social: {

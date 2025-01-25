@@ -1,7 +1,7 @@
 import { Section } from './Section';
 
 const community = [
-
+ { name: 'HackTour India', tier: 'gold', imageUrl: 'https://i.postimg.cc/BZmKgL7p/hacktour.png', url: 'https://hacktour.xyz/' },
     { name: 'ReSkilll', tier: 'gold', imageUrl: 'https://i.ibb.co/Qdw0VV5/reskilll-1.png', url: 'https://reskilll.com/' },
     { name: 'GeekRoom', tier: 'gold', imageUrl: 'https://i.ibb.co/tM3nSfH/geekroom.jpg', url: 'https://www.geekroom.in/' },
     { name: 'theDevArmy', tier: 'gold', imageUrl: 'https://i.ibb.co/42G4jSN/cropped-Logo-Group-1.png', url: 'https://thedevarmy.com/' },

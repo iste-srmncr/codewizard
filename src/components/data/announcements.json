@@ -1,0 +1,71 @@
+{
+    "announcements": [
+
+      {
+        "id": 8,
+        "title": "🌟 Exciting Partnership Announcement!",
+        "content": "<h2>📢 CodeWizard'25 Partners with Spydra!</h2><p>We are excited to announce that CodeWizard'25 has partnered with <strong>Spydra</strong>, a leading blockchain platform empowering enterprises with asset tokenization for real-world impact. 🌐</p><p style='text-align: center;'><a href='https://www.spydra.app/' target='_blank' style='text-decoration: none;'><img src='https://cdn.prod.website-files.com/63c7842c42c0ed530e0e43b5/63ca68b3069ed64008a77f2b_spydra-logo-blue.png' alt='Spydra Logo' style='width: 150px; height: auto; margin: 10px 0;'></a></p><p>With Spydra’s innovative solutions, participants will experience enhanced transparency, security, and efficiency—bringing the power of blockchain to industries like supply chain, healthcare, real estate, and more. 🚀</p><p>Let’s unlock new possibilities together with Spydra at CodeWizard'25! 🌟</p>",
+        "date": "2025-01-24 | 22:30",
+        "sender": "Kartikey Mittal",
+        "isLatest": true
+    },
+    
+    
+    
+      {
+        "id": 7,
+        "title": "📧 Shortlisting Update: Second Batch Released!",
+        "content": "<h2>📢 Shortlisting Update: Second Batch Released!</h2><p>We’re thrilled to share that <strong>emails for the second batch of shortlisted teams</strong> have been sent. 🎉</p><p>📬 <em>Team leaders, please check your inbox!</em></p><p>If you haven’t received an email yet, hang tight—more updates are coming soon. 🚀</p><p>Best of luck to all participants! 🌟💻</p>",
+        "date": "2025-01-24 | 15:00",
+        "sender": "Lakshay Jain",
+        "isLatest": true
+    },
+      {
+        "id": 6,
+        "title": "📧 Shortlisting Update for CodeWizard'25",
+        "content": "<h2>📢 Attention CodeWizard'25 Participants!</h2><p>We’re excited to announce that <strong>emails have been sent to the team leaders</strong> of the first batch of shortlisted teams. 🎉 Please check your inbox! 📬</p><p>This batch includes teams with members outside Delhi to ensure a quicker review process. 🚀</p><p><strong>Haven’t received an email yet?</strong> Don’t worry! Our team is actively working on reviewing remaining entries, and updates will be rolled out soon. ⏳</p><p>Stay tuned for more updates, and best of luck! 🌟💻</p>",
+        "date": "2025-01-22 | 12:00",
+        "sender": "Aviral Saxena",
+        "isLatest": true
+    },
+        {
+            "id": 5,
+            "title": "🚨 CodeWizard Registration Update 🚨",
+            "content": "<h2>🚨 Attention, Code Wizards! 🚨</h2><p>We’re absolutely <strong>thrilled</strong> to have you all onboard! 🎉 <br> <strong>800+ registrations</strong> already in the bag! 🙌</p><p>However, we’ve noticed that many teams still have <strong>incomplete registrations</strong>. 😬</p><p>We need your <strong>complete registration</strong> ASAP to move forward and shortlist teams quickly! ⚡ Don’t leave it for the last minute—let’s get it done so we don’t face any delays! ⏳</p><p>Complete your registration now and get ready to shine! 🌟💪</p><p>We can’t wait to see your brilliance! ✨</p>",
+            "date": "2025-01-21 | 22:00",
+            "sender": "Kartikey Mittal",
+            "isLatest": true
+          }
+,          
+      {
+        "id": 4,
+        "title": "0xProfile Retrieval Feature",
+        "content": "<h2>🚨 Attention, forgetful legends!</h2><p>The Tech Team got so overwhelmed with people asking for their 0xProfile (we nearly developed RSI from typing 😅) that we birthed this masterpiece of a feature! 🎉</p><p>Now, for all you username amnesia victims 🤦‍♂🤦‍♀, simply head over to:<br><a href='https://whatismy0xprofile.vercel.app'>👉 https://whatismy0xprofile.vercel.app 👈</a></p><p>Remember, this only works for previous participants—new folks, sorry, you're on your own! 🤷‍♂ You're welcome! 🎉✨</p>",
+        "date": "2025-01-20 | 21:33",
+        "sender": "Akash Deep",
+        "isLatest": false
+      },
+      {
+        "id": 3,
+        "title": "Profile Update Tip",
+        "content": "<h2>✨ Profile Update Tip</h2><p>Hey everyone! 🚨 Quick tip: To improve your chances of getting shortlisted, make sure to update your LinkedIn and GitHub profiles on Unstop, along with a killer 'About' section! 💻✨ Let your profile do the talking—shine bright and stand out! 🌟🚀</p>",
+        "date": "2025-01-20 | 18:58",
+        "sender": "Akash Deep"
+      },
+      {
+        "id": 2,
+        "title": "0xProfile Requirement",
+        "content": "<h2>⚠️ 0xProfile is Mandatory! 🚨</h2><p>We’ll be using 0x.day’s hackathon management software, and your credentials will be provided according to your 0xProfile. Therefore, it’s essential that every team member has their own 0xProfile! 💼🔑</p><p>Don't miss out—set it up now and stay ahead! 💪🚀</p>",
+        "date": "2025-01-20 | 18:57",
+        "sender": "Kartikey Mittal"
+      },
+      {
+        "id": 1,
+        "title": "Mandatory Task Completion",
+        "content": "<h2>Important Notice 🚨</h2><p>As part of the hackathon requirements, each team member must individually complete the mandatory task using the form linked below. 📋✅</p><ol><li>Verified during the shortlisting process. ✅</li><li>Failure to complete may affect your team’s eligibility. ❌</li></ol><p><a href='https://forms.gle/SMsLW3vMravDhqZq9'>🔗 Form Link</a></p>",
+        "date": "2025-01-20 | 18:57",
+        "sender": "Kartikey Mittal"
+      }
+    ]
+  }
+  

@@ -4,7 +4,7 @@ import { Trophy, Award, Medal, Gift,Plane } from 'lucide-react';
 const prizes = [
   {
     place: 'Prize Pool Worth',
-    amount: ' ₹2.5 Lakhs',
+    amount: ' ₹3.5 Lakhs',
     icon: <Gift className="w-12 h-12 text-purple-400" />,
     description: 'Category-specific prizes for innovation, design, and impact',
     gradient: 'from-purple-400 via-purple-300 to-purple-400'
@@ -31,7 +31,7 @@ const prizes = [
     gradient: 'from-amber-600 via-amber-500 to-amber-600'
   },
   {
-    place: 'Free Sponsored Tips',
+    place: 'Free Sponsored Trips',
     amount: '',
     icon: <Plane className="w-12 h-12 text-amber-600" />,
     description: 'Get a chance to grab a free sponsored trip!',
@@ -43,7 +43,7 @@ const prizes = [
 export function PrizePool() {
   return (
     <section className="py-20 relative">
-      {/* Background decoration */}
+      {/* Background decoration hey ios the formal*/}
       <div className="absolute inset-0 opacity-100">
         <div className="absolute top-10 left-10 w-48 h-48 bg-purple-500 rounded-full filter blur-3xl" />
         <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500 rounded-full filter blur-3xl" />

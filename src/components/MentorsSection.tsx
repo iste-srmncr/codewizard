@@ -3,6 +3,7 @@ import { Section } from './Section';
 import { PersonCard } from './PersonCard';
 
 const mentors = [
+  
   {
     name: 'Manas Chopra',
     role: 'Co-Founder, GeekRoom',
@@ -14,21 +15,21 @@ const mentors = [
     }
   },
   {
-    name: 'Pratham Batra',
-    role: 'Co-Founder, GeekRoom',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQEpB4pG9Liivg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702434558476?e=1743033600&v=beta&t=5pZTJR5XpDSGx28QXW8Jw5Oje1F3XQqjiM1OdDre0UU',
+    name: 'Bharat Varshney',
+    role: 'Technical Lead',
+    image: 'https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.amazonaws.com%2FqSw7k5HpSwJ2HBBr4AT59P.jpeg&w=256&q=90&dpl=dpl_5weRPZ6Yua2171A8GFDAx6R8heJf',
     expertise: 'Product Strategy',
     social: {
-      linkedin: 'https://www.linkedin.com/in/pratham1908/',
+      linkedin: 'https://www.linkedin.com/in/bharatvarshney/',
     }
   },
   {
-    name: 'Sanidhya Goel',
-    role: 'President, GeekRoom',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE5W6rOwfsPxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709818256510?e=1743033600&v=beta&t=nXMFXDgxWs2xMnsZ1EjHSehMlE9f9hV5zvY3gqHHy90',
+    name: 'Harsh Kumar Jadon',
+    role: 'DevRel,Kalp Studio',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQGJs_5eDs3ahg/profile-displayphoto-shrink_400_400/B56ZRmHeuoGoAg-/0/1736880025569?e=1743033600&v=beta&t=vGCKgMaZFieJQORWhc3xmPfcLzRjWNOTV-eKLWThpkI',
     expertise: 'User Experience',
     social: {
-      linkedin: 'https://www.linkedin.com/in/sanidhya-goel-2499991b1/',
+      linkedin: 'https://www.linkedin.com/in/harsh-kumar-jadon-204a15197/',
     }
   },
   {
@@ -40,19 +41,20 @@ const mentors = [
       linkedin: 'https://www.linkedin.com/in/mannasnarang/',
     }
   },
+ 
 ];
 
 export function MentorsSection() {
   return (
     <Section id="mentors" title="Meet Your Mentors">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {mentors.slice(0, 3).map((mentor, index) => (
+        {mentors.slice(0, 5).map((mentor, index) => (
           <PersonCard key={index} {...mentor} />
         ))}
       </div>
       <div className="flex justify-center mt-8">
         <div className="w-full md:w-1/2 lg:w-1/3">
-          <PersonCard key={3} {...mentors[3]} />
+          {/* <PersonCard key={} {...mentors[4]} /> */}
         </div>
       </div>
     </Section>
