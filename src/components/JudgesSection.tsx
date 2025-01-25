@@ -26,7 +26,7 @@ const mentors = [
   },
   {
     name: 'Saran Kumar',
-    role: 'Founder , 0x.day ',
+    role: 'Co-Founder , 0x.day ',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQEsJrKbKQfG1g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719813329896?e=1743033600&v=beta&t=v-ZzJeRe31l7FQ4aBjwQE_Vk4Oj2HoFMuTNVXfpHfUE',
     expertise: 'User Experience',
     social: {
