@@ -49,6 +49,7 @@ const timelineData = {
       icon: <Code2 className="w-6 h-6" />,
       description: 'Begin building your projects.'
     },
+
     {
       time: '02:00 PM',
       title: 'Lunch',
@@ -61,12 +62,12 @@ const timelineData = {
       icon: <Users className="w-6 h-6" />,
       description: 'Get guidance from industry experts.'
     },
-    // {
-    //   time: '07:00 PM - 08:00 PM',
-    //   title: 'Concode',
-    //   icon: <Code2 className="w-6 h-6" />,
-    //   description: 'Engage in fun coding challenges.'
-    // },
+    {
+      time: '07:00 PM - 08:00 PM',
+      title: 'Concode',
+      icon: <Code2 className="w-6 h-6" />,
+      description: 'Engage in fun coding challenges.'
+    },
     {
       time: '08:00 PM',
       title: 'Dinner',
@@ -87,12 +88,12 @@ const timelineData = {
       icon: <Upload className="w-6 h-6" />,
       description: 'Submit your final projects.'
     },
-    // {
-    //   time: '10:00 AM',
-    //   title: 'Breakfast',
-    //   icon: <Pizza className="w-6 h-6" />,
-    //   description: 'Start your day with a hearty meal.'
-    // },
+    {
+      time: '10:00 AM',
+      title: 'Breakfast',
+      icon: <Pizza className="w-6 h-6" />,
+      description: 'Start your day with a hearty meal.'
+    },
     {
       time: '12:00 PM',
       title: 'Shortlisting Team Declared',
