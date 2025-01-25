@@ -25,7 +25,7 @@ const mentors = [
   },
   {
     name: 'Harsh Kumar Jadon',
-    role: 'Founder,Kalp Studio',
+    role: 'DevRel,Kalp Studio',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQGJs_5eDs3ahg/profile-displayphoto-shrink_400_400/B56ZRmHeuoGoAg-/0/1736880025569?e=1743033600&v=beta&t=vGCKgMaZFieJQORWhc3xmPfcLzRjWNOTV-eKLWThpkI',
     expertise: 'User Experience',
     social: {
@@ -41,15 +41,7 @@ const mentors = [
       linkedin: 'https://www.linkedin.com/in/mannasnarang/',
     }
   },
-  {
-    name: 'Sanhitha Napa',
-    role: 'Brand Marketing Manager-Spydra',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQELLvMdg-cHBw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697033401226?e=1743033600&v=beta&t=gLCXGMwz7pCc5cLMTYHsABuEePsWNdid1MBE9Pcyp7I',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/sanhithanapa/',
-
-    }
-  },
+ 
 ];
 
 export function MentorsSection() {
