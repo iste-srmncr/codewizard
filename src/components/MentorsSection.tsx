@@ -15,12 +15,12 @@ const mentors = [
     }
   },
   {
-    name: 'Bharat Varshney',
-    role: 'Technical Lead',
-    image: 'https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.amazonaws.com%2FqSw7k5HpSwJ2HBBr4AT59P.jpeg&w=256&q=90&dpl=dpl_5weRPZ6Yua2171A8GFDAx6R8heJf',
-    expertise: 'Product Strategy',
+    name: 'Aditya Kumar ',
+    role: 'SDE-INTERN @Sasefied',
+    image: 'https://media.licdn.com/dms/image/v2/D4E03AQHidvBQ_Iubdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723744983594?e=1743638400&v=beta&t=mrvded74_kgPcnJXcZj1n76gCzI8FU6tcWWlDR7ZvWE',
+    expertise: 'FULL STACK',
     social: {
-      linkedin: 'https://www.linkedin.com/in/bharatvarshney/',
+      linkedin: 'https://www.linkedin.com/in/aditya7483/',
     }
   },
   {

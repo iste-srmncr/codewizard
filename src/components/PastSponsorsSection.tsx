@@ -8,7 +8,7 @@ const pastSponsors = [
   { name: 'CodeLabs', tier: 'silver', imageUrl: 'PastSponsorLogos/digitalocean-horizontal.svg' },
   { name: 'DataFlow', tier: 'silver', imageUrl: 'PastSponsorLogos/jetbrains-mono-white.svg' },
   { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/grnew.svg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'https://quillaudits.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4bee80eb-b16d-460c-a7c5-50f65f0c8b04%2F7a13fbf8-8cbe-4eaa-9fe4-b85919ed3c91%2FQuillAudits_Logo_(White_-_Horizontal).svg?id=cd1f42d3-6aca-4218-9e85-6f39d4bb1fe6&table=block&spaceId=4bee80eb-b16d-460c-a7c5-50f65f0c8b04&userId=&cache=v2' },
+  { name: 'Github', tier: 'bronze', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tvx2BFjpYmfiIBLV25XIfVZy4KhCYFLB7w&s' },
   { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/redbull2.svg' },
 ];
 

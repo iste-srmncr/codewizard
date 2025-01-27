@@ -1,49 +1,30 @@
-import React, { useState } from 'react';
-import { Lock, Unlock } from 'lucide-react';
+import React from 'react';
 
 interface ProblemBoxProps {
   title: string;
   description: string;
-  isLocked: boolean;
-  onToggle: () => void;
+  tracks: string[];
+  onViewMore: () => void;
 }
 
-export function ProblemBox({ title, description, isLocked, onToggle }: ProblemBoxProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const handleClick = () => {
-    if (!isLocked) {
-      setIsExpanded(!isExpanded);
-    }
+export function ProblemBox({ title, description, tracks, onViewMore }: ProblemBoxProps) {
+  const getShortDescription = (desc: string) => {
+    const words = desc.split(' ');
+    if (words.length <= 10) return desc;
+    return words.slice(0, 7).join(' ') + '...';
   };
 
   return (
     <div 
-      className={`
-        border border-gray-700 rounded-lg p-4 transition-all duration-300
-        ${isLocked ? 'bg-gray-800/30' : 'bg-gray-800/50 hover:bg-gray-800/70 cursor-pointer'}
-        ${isExpanded ? 'ring-2 ring-purple-500' : ''}
-      `} style={{backgroundColor: 'rgba(1, 1, 7, 0.5)'}}
+      className="problem-box border border-gray-700 rounded-lg p-4 transition-all duration-300 bg-gray-800/50 hover:bg-gray-800/70 cursor-pointer"
+      style={{backgroundColor: 'rgba(1, 1, 7, 0.5)'}}
     >
-      <div className="flex items-center justify-between" onClick={isLocked ? onToggle : handleClick}>
+      <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold text-gray-200">{title}</h3>
-        <button 
-          className={`p-2 rounded-full transition-colors ${isLocked ? 'text-gray-500' : 'text-[#dbe2e7]'}`}
-          onClick={(e) => {
-            e.stopPropagation();
-            if (isLocked) onToggle();
-          }}
-        >
-          {isLocked ? <Lock className="w-5 h-5" /> : <Unlock className="w-5 h-5" style={{color:"#46c25c"}}/>}
-        </button>
       </div>
-      <div 
-        className={`
-          overflow-hidden transition-all duration-300
-          ${isExpanded ? 'mt-4 max-h-48' : 'max-h-0'}
-        `}
-      >
-        <p className="text-gray-400">{description}</p>
+      <div className="mt-4">
+        <p className="text-gray-400">{getShortDescription(description)}</p>
+        <button onClick={(e) => { e.stopPropagation(); onViewMore(); }} className="text-blue-400 underline mt-2">View Full Description</button>
       </div>
     </div>
   );
