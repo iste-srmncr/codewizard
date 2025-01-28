@@ -18,7 +18,7 @@ import backgroundSvg from './assets/bgsvg.webp';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { AboutSection } from './components/AboutSection';
 import { JudgesSection } from './components/JudgesSection';
-const HomePage = () => {
+function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
     { icon: <Coffee className="w-8 h-8" />, title: 'Free Food & Drinks', description: 'Keep energized throughout the event' },
@@ -30,7 +30,7 @@ const HomePage = () => {
     { icon: <Medal className="w-8 h-8" />, title: 'Awards & Recognition', description: 'Get rewarded for your outstanding efforts' },
     { icon: <Smile className="w-8 h-8" />, title: 'Networking Opportunities', description: 'Connect with like-minded individuals' },
   ];
-
+// jnj
 
   return (
     <div
@@ -101,7 +101,7 @@ const HomePage = () => {
   }
 `}</style>
           <div className="mb-12">
-            <CountdownTimer />
+            <p style={{fontSize:38,fontWeight:"bold"}}>CodeWizard is Live now 🔥🔥</p>
           </div>
           <a
             href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
@@ -151,4 +151,4 @@ const HomePage = () => {
   );
 }
 
-export default HomePage;
+export default App;
