@@ -3,7 +3,7 @@ import { Section } from './Section';
 import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresence
 
 const teamMembers = {
-  organizers: [
+  heads: [
     { name: 'Dr. Niranjan Lal', role: 'Faculty coordinator', image: 'https://www.istesrmncr.in/images/team/niranjan-sir.jpg' },
     { name: 'Hardik Behal', role: 'Executive', image: 'https://www.istesrmncr.in/images/team/IMG_0767%20-%20Hardik%20Behal.jpeg' },
     { name: 'Saksham Bhardwaj', role: 'Co-executive', image: 'https://www.istesrmncr.in/images/team/SakshamBhardwaj.png' },
@@ -54,7 +54,7 @@ const TeamMember = ({ name, role, image }) => (
 );
 
 export function TeamSection() {
-  const [activeTab, setActiveTab] = useState('organizers');
+  const [activeTab, setActiveTab] = useState('heads');
 
   return (
     <Section id="team" title="Our Team">

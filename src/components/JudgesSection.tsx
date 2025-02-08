@@ -38,7 +38,7 @@ const mentors = [
   {
     name: 'Shubham Shakti ',
     role: 'Founder @E-Khel ',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQHCGWfanbIvWw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693400821754?e=1743033600&v=beta&t=0U_IEKSKt8m2J6bwZGEwJ7hLGi9T9jm7jEkLWCDHfug',
+    image: 'https://media.licdn.com/dms/image/v2/D4E03AQHwmf0_FfQzig/profile-displayphoto-shrink_400_400/B4EZSrtwrMGgAg-/0/1738047689060?e=1744243200&v=beta&t=etJfOyNFQByC6ze3BCuLzBMcoN1in7AZr94eYktaFFM',
     expertise: 'WEB3',
     social: {
       linkedin: 'https://www.linkedin.com/in/shubhamshaktirout/',

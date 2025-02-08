@@ -101,7 +101,7 @@ function App() {
   }
 `}</style>
           <div className="mb-12">
-            <p style={{fontSize:38,fontWeight:"bold"}}>CodeWizard is Live now 🔥🔥</p>
+            <p style={{fontSize:38,fontWeight:"bold"}}>We'll Be Back Again 🙌</p>
           </div>
           <a
             href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
