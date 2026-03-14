@@ -42,13 +42,13 @@ export function Footer() {
             <a href="#" className="text-2xl font-bold text-[#dbe2e7]">
               <img
                 src={logo}
-                alt="CodeWizard Logo"
+                alt="CodeWizards Logo"
                 className={windowWidth <= 768 ? 'h-9' : 'h-12'}
                 style={{ backgroundColor: 'transparent', opacity: 0.7 }}
               />
             </a>
             <p className="text-gray-400">
-              <strong>CodeWizard</strong>, an extraordinary hackathon organized by{' '}
+              <strong>CodeWizards</strong>, an extraordinary hackathon organized by{' '}
               <a
                 href="https://istesrmncr.in"
                 className="font-bold text-[#827438] hover:text-[#494636] flex items-center gap-2 inline-flex"
@@ -122,7 +122,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-0 border-t border-gray-700 text-center text-gray-400">
-          <span>&copy; {new Date().getFullYear()} CodeWizard. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} CodeWizards. All rights reserved.</span>
         </div>
       </div>
     </footer>

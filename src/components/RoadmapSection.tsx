@@ -62,13 +62,7 @@ const timelineData = {
       icon: <Users className="w-6 h-6" />,
       description: 'Get guidance from industry experts.'
     },
-    {
-      time: '07:00 PM - 08:00 PM',
-      title: 'Concode',
-      icon: <Code2 className="w-6 h-6" />,
-      description: 'Engage in fun coding challenges.'
-    },
-    {
+{
       time: '08:00 PM',
       title: 'Dinner',
       icon: <Pizza className="w-6 h-6" />,

@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "Do I need to have a team?",
-    answer: "Great ideas rarely fly solo! ✨ Form a team of 2 to 5 members 👥 and collaborate to innovate 💡🚀.",
+    answer: "Great ideas rarely fly solo! ✨ Form a team of 2 to 4 members 👥 and collaborate to innovate 💡🚀.",
   },
   
   {

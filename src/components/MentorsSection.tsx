@@ -1,60 +1,43 @@
 import React from 'react';
 import { Section } from './Section';
-import { PersonCard } from './PersonCard';
 
-const mentors = [
-  
-  {
-    name: 'Manas Chopra',
-    role: 'Co-Founder, GeekRoom',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQF3dMwwm5HxkQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727488349496?e=1743033600&v=beta&t=UAGl7KGK-YYVX9wOq8_V2x6zGlNJ2CuRx-a5vwgdp6M',
-    expertise: 'Cloud Architecture',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/themanas95826/',
-      instagram: 'https://www.instagram.com/themanas.ai/'
-    }
-  },
-  {
-    name: 'Aditya Kumar ',
-    role: 'SDE-INTERN @Sasefied',
-    image: 'https://media.licdn.com/dms/image/v2/D4E03AQHidvBQ_Iubdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723744983594?e=1743638400&v=beta&t=mrvded74_kgPcnJXcZj1n76gCzI8FU6tcWWlDR7ZvWE',
-    expertise: 'FULL STACK',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/aditya7483/',
-    }
-  },
-  {
-    name: 'Harsh Kumar Jadon',
-    role: 'DevRel,Kalp Studio',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQGJs_5eDs3ahg/profile-displayphoto-shrink_400_400/B56ZRmHeuoGoAg-/0/1736880025569?e=1743033600&v=beta&t=vGCKgMaZFieJQORWhc3xmPfcLzRjWNOTV-eKLWThpkI',
-    expertise: 'User Experience',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/harsh-kumar-jadon-204a15197/',
-    }
-  },
-  {
-    name: 'Mannas Narang',
-    role: 'Software Engineer @wander',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQHH3W3j3Y1Wzw/profile-displayphoto-shrink_400_400/B56ZP2UgjHG4Ak-/0/1735004392388?e=1743033600&v=beta&t=Q4ySLAzvl4tqUySZsKzqhj4thUKApJRk3EaPRDQDtgk',
-    expertise: 'User Experience',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/mannasnarang/',
-    }
-  },
- 
-];
+const dummyCards = Array.from({ length: 4 }, (_, i) => i);
+
+function DummyPersonCard() {
+  return (
+    <div className="bg-[#12151d] rounded-xl shadow-lg p-6 backdrop-blur-sm" style={{ border: "1px solid #2f2e31" }}>
+      <div className="flex items-center gap-4">
+        <div className="w-1/2">
+          <div className="w-full h-32 bg-gray-700 rounded-md" />
+        </div>
+        <div className="w-1/2">
+          <h3 className="text-xl font-semibold text-center text-white mb-1">Mentor Name</h3>
+          <p className="text-center text-gray-400 mb-4">Role Title</p>
+          <div className="flex justify-center gap-4">
+            <div className="w-5 h-5 bg-gray-600 rounded-full" />
+            <div className="w-5 h-5 bg-gray-600 rounded-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export function MentorsSection() {
   return (
     <Section id="mentors" title="Meet Your Mentors">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {mentors.slice(0, 3).map((mentor, index) => (
-          <PersonCard key={index} {...mentor} />
-        ))}
-      </div>
-      <div className="flex justify-center mt-8">
-        <div className="w-full md:w-1/2 lg:w-1/3">
-          <PersonCard key={3} {...mentors[3]} />
+      <div className="relative">
+        <div className="select-none pointer-events-none" style={{ filter: 'blur(20px)' }}>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {dummyCards.slice(0, 3).map((i) => (
+              <DummyPersonCard key={i} />
+            ))}
+          </div>
+          <div className="flex justify-center mt-8">
+            <div className="w-full md:w-1/2 lg:w-1/3">
+              <DummyPersonCard />
+            </div>
+          </div>
         </div>
       </div>
     </Section>

@@ -8,7 +8,7 @@ interface TimeLeft {
 }
 
 export function CountdownTimer() {
-  const targetDate = new Date('2025-01-28T00:00:00'); // Target date: January 29, 2025
+  const targetDate = new Date('2026-04-10T00:00:00'); // Target date: April 10, 2026
 
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 

@@ -37,7 +37,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
         <a href="#" className="text-2xl font-bold text-[#dbe2e7]">
-  <img src={logo} alt="CodeWizard Logo" className={windowWidth <= 768 ? 'h-9' : 'h-12'}  style={{backgroundColor:'transparent'}} />
+  <img src={logo} alt="CodeWizards Logo" className={windowWidth <= 768 ? 'h-9' : 'h-12'}  style={{backgroundColor:'transparent'}} />
 </a>
 
 
@@ -52,18 +52,13 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              className="bg-gray-600 text-white font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60"
+              style={{ border: "1px solid #fff4a3" }}
+              disabled
             >
-              <button
-                className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
-                style={{ border: "1px solid #fff4a3" }}
-              >
-                Register Now
-              </button>
-            </a>
+              Registration Opening Soon
+            </button>
 
           </div>
 
@@ -89,18 +84,13 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              className="bg-gray-600 text-white font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60"
+              style={{ border: "1px solid #fff4a3" }}
+              disabled
             >
-              <button
-                className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
-                style={{ border: "1px solid #fff4a3" }}
-              >
-                Register Now
-              </button>
-            </a>
+              Registration Opening Soon
+            </button>
 
           </div>
         )}

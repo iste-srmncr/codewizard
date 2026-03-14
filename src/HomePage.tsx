@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
-import { ParticlesBackground } from './components/ParticlesBackground';
 import { CountdownTimer } from './components/CountdownTimer';
 import { Section } from './components/Section';
 import { SponsorsSection } from './components/SponsorsSection';
@@ -14,10 +13,9 @@ import { PrizePool } from './components/PrizePool';
 import { Code2, Wifi, Coffee, Gift } from 'lucide-react';
 import { Bed, Bus, Medal, Book, Smile } from 'lucide-react';
 import { RoadmapSection } from './components/RoadmapSection';
-import backgroundSvg from './assets/bgsvg.webp';
-import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { AboutSection } from './components/AboutSection';
 import { JudgesSection } from './components/JudgesSection';
+import { VantaBackground } from './components/VantaBackground';
 function App() {
   const amenities = [
     { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
@@ -34,87 +32,46 @@ function App() {
 
   return (
     <div
-      className="min-h-screen bg-black-dark text-white bg-grain-texture bg-cover bg-fixed"
-      style={{
-        backgroundImage: `url(${backgroundSvg})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center', backgroundColor: '#010409'
-      }}
+      className="min-h-screen text-white relative"
+      style={{ backgroundColor: '#010409' }}
     >
+      <VantaBackground />
+      <div className="relative z-[1]">
       <Navbar />
 
       {/* Hero Section */}
       <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
-        <ParticlesBackground />
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text">
-            CodeWizard <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2025</span>
+            CodeWizards <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2026</span>
           </h1>
 
           <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
             <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent
-"> 28-29th Jan, 2025</span>
+"> 10-11th April, 2026</span>
           </h6>
-          <p
-            className="text-xl lg:text-2xl xl:text-3xl mb-12 text-gray-300 mx-auto"
-            style={{
-              fontFamily: 'Oxanium',
-              backgroundColor: '#161817',
-              borderRadius: '0.7rem',
-              maxWidth: '90%',  // Adjust maxWidth for mobile and larger devices
-              padding: '1rem',
-              position: 'relative',
-              border: '1px solid #909090', // Grey border color
-              display: 'inline-block', // Ensures content width determines size
-            }}
-          >
-            36 Hours of{' '}
-            <span style={{ color: '#99bcf6', fontWeight: 'bold' }}>Innovation</span>,{' '}
-            <span style={{ color: '#ffc412', fontWeight: 'bold' }}>Creativity</span>, &{' '}
-            <span style={{ color: '#919193', fontWeight: 'bold' }}>Code</span>
-            <span
-              style={{
-                position: 'absolute',
-                top: '0',
-                left: '0',
-                right: '0',
-                bottom: '0',
-                borderRadius: '0.7rem',
-                border: '2px solid transparent',
-                backgroundImage: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)', // Reduced opacity white
-                backgroundSize: '200% 100%',
-                backgroundPosition: '0 0',
-                animation: 'moveBorder 5s linear infinite',
-                pointerEvents: 'none', // Ensures this element does not interfere with the text
-              }}
-            />
-          </p>
-          <style>{`
-  @keyframes moveBorder {
-    0% {
-      background-position: 150% 0;
-    }
-    100% {
-      background-position: -50% 0;
-    }
-  }
-`}</style>
-          <div className="mb-12">
-            <p style={{fontSize:38,fontWeight:"bold"}}>We'll Be Back Again 🙌</p>
+          <div className="inline-block mb-12 px-6 py-3 rounded-xl" style={{
+            background: 'rgba(0, 0, 0, 0.5)',
+            backdropFilter: 'blur(12px)',
+            border: '1px solid rgba(255,255,255,0.08)',
+          }}>
+            <p className="text-xl lg:text-2xl xl:text-3xl text-gray-300" style={{ fontFamily: 'Oxanium' }}>
+              36 Hours of{' '}
+              <span style={{ color: '#99bcf6', fontWeight: 'bold' }}>Innovation</span>,{' '}
+              <span style={{ color: '#ffc412', fontWeight: 'bold' }}>Creativity</span>, &{' '}
+              <span style={{ color: '#c0c0c0', fontWeight: 'bold' }}>Code</span>
+            </p>
           </div>
-          <a
-            href="https://unstop.com/p/codewizard25-srm-ist-ncr-campus-1363994"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div className="mb-12">
+            <p style={{fontSize:38,fontWeight:"bold"}}>Coming Soon 🔥🔥</p>
+          </div>
+          <button
+            className="bg-gray-600 text-white font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60"
+            style={{ border: "1px solid #fff4a3" }}
+            disabled
           >
-            <button
-              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
-              style={{ border: "1px solid #fff4a3" }}
-            >
-              Register Now
-            </button>
-          </a>
+            Registration Opening Soon
+          </button>
 
         </div>
       </section>
@@ -141,12 +98,12 @@ function App() {
       <ProblemStatementsSection />
       <SponsorsSection />
       <CommunityPartners />
-      <PastSponsorsSection />
       <JudgesSection/>
       <MentorsSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <FAQSection />
       <Footer />
+      </div>
     </div>
   );
 }

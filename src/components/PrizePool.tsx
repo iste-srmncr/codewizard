@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, Award, Medal, Gift,Plane } from 'lucide-react';
+import { Trophy, Award, Medal, Gift } from 'lucide-react';
 
 const prizes = [
   {
@@ -30,14 +30,6 @@ const prizes = [
     description: 'Bronze prize package with valuable rewards and cash',
     gradient: 'from-amber-600 via-amber-500 to-amber-600'
   },
-  {
-    place: 'Free Sponsored Trips',
-    amount: '',
-    icon: <Plane className="w-12 h-12 text-amber-600" />,
-    description: 'Get a chance to grab a free sponsored trip!',
-    gradient: 'from-amber-600 via-amber-500 to-amber-600'
-},
-
 ];
 
 export function PrizePool() {
@@ -64,17 +56,22 @@ export function PrizePool() {
               <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"
                 style={{ background: `linear-gradient(to right, ${prizes[0].gradient})` }}
               />
-              <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105" style={{border:"0.5px solid #2d2d2f"}}>
-                <div className="flex justify-center mb-4">
-                  {prizes[0].icon}
+              <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm overflow-hidden" style={{border:"0.5px solid #2d2d2f"}}>
+                <div className="filter blur-md select-none">
+                  <div className="flex justify-center mb-4">
+                    {prizes[0].icon}
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-center">{prizes[0].place}</h3>
+                  <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prizes[0].gradient} bg-clip-text text-transparent`}>
+                    {prizes[0].amount}
+                  </div>
+                  <p className="text-gray-400 text-center text-sm">
+                    {prizes[0].description}
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-center">{prizes[0].place}</h3>
-                <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prizes[0].gradient} bg-clip-text text-transparent`}>
-                  {prizes[0].amount}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-white text-xl font-bold bg-black/50 px-6 py-2 rounded-full backdrop-blur-sm">Coming Soon</span>
                 </div>
-                <p className="text-gray-400 text-center text-sm">
-                  {prizes[0].description}
-                </p>
               </div>
             </div>
           </div>
@@ -87,43 +84,28 @@ export function PrizePool() {
                   <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"
                     style={{ background: `linear-gradient(to right, ${prize.gradient})` }}
                   />
-                  <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105" style={{border:"0.5px solid #2d2d2f"}}>
-                    <div className="flex justify-center mb-4">
-                      {prize.icon}
+                  <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm overflow-hidden" style={{border:"0.5px solid #2d2d2f"}}>
+                    <div className="filter blur-md select-none">
+                      <div className="flex justify-center mb-4">
+                        {prize.icon}
+                      </div>
+                      <h3 className="text-xl font-bold mb-2 text-center">{prize.place}</h3>
+                      <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prize.gradient} bg-clip-text text-transparent`}>
+                        {prize.amount}
+                      </div>
+                      <p className="text-gray-400 text-center text-sm">
+                        {prize.description}
+                      </p>
                     </div>
-                    <h3 className="text-xl font-bold mb-2 text-center">{prize.place}</h3>
-                    <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prize.gradient} bg-clip-text text-transparent`}>
-                      {prize.amount}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <span className="text-white text-xl font-bold bg-black/50 px-6 py-2 rounded-full backdrop-blur-sm">Coming Soon</span>
                     </div>
-                    <p className="text-gray-400 text-center text-sm">
-                      {prize.description}
-                    </p>
                   </div>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Third row with And More */}
-          <div className="w-full max-w-md mx-auto">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"
-                style={{ background: `linear-gradient(to right, ${prizes[4].gradient})` }}
-              />
-              <div className="relative bg-[#18181b] border border-gray-800 rounded-xl p-6 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105" style={{border:"0.5px solid #2d2d2f"}}>
-                <div className="flex justify-center mb-4">
-                  {prizes[4].icon}
-                </div>
-                <h3 className="text-xl font-bold mb-2 text-center">{prizes[4].place}</h3>
-                <div className={`text-3xl font-bold mb-4 text-center bg-gradient-to-r ${prizes[4].gradient} bg-clip-text text-transparent`}>
-                  {prizes[4].amount}
-                </div>
-                <p className="text-gray-400 text-center text-sm">
-                  {prizes[4].description}
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

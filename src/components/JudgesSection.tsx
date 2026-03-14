@@ -1,63 +1,43 @@
 import React from 'react';
 import { Section } from './Section';
-import { PersonCard } from './PersonCard';
 
-const mentors = [
-  {
-    name: 'Varun Kohli ',
-    role: 'CEO , Coding Blocks',
-    image: 'https://media.licdn.com/dms/image/v2/C5603AQGRbbuaLUhjnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1642883534969?e=1743033600&v=beta&t=deI2POxxENw0eHEYcMCJmjJNUySbZLTPA8zInfGieEg',
-    expertise: 'Cloud Architecture',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/kohli12?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      // instagram: 'https://www.instagram.com/davidkim'
-    }
-  },
-  {
-    name: 'Kartik Mathur',
-    role: 'Co-Founder, Coding Blocks',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQGlGLU4MuN2DQ/profile-displayphoto-shrink_400_400/B56ZQbshyQHQAo-/0/1735631446279?e=1743033600&v=beta&t=b3WuJwaRAf1UqsdLwDh1gLfTmOuV1BBvgZJvL8awyUc',
-    expertise: 'Product Strategy',
-    social: {
-      // github: 'https://github.com/lisajohnson',
-      linkedin: 'https://www.linkedin.com/in/kartik-mathur?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      // instagram: 'https://www.instagram.com/lisajohnson'
-    }
-  },
-  {
-    name: 'Saran Kumar',
-    role: 'Co-Founder , 0x.day ',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQEsJrKbKQfG1g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719813329896?e=1743033600&v=beta&t=v-ZzJeRe31l7FQ4aBjwQE_Vk4Oj2HoFMuTNVXfpHfUE',
-    expertise: 'User Experience',
-    social: {
-      // github: 'https://github.com/alexrivera',
-      linkedin: 'https://www.linkedin.com/in/0xsaran/?originalSubdomain=in',
-      // instagram: 'https://www.instagram.com/alexrivera'
-    }
-  },
-  {
-    name: 'Shubham Shakti ',
-    role: 'Founder @E-Khel ',
-    image: 'https://media.licdn.com/dms/image/v2/D4E03AQHwmf0_FfQzig/profile-displayphoto-shrink_400_400/B4EZSrtwrMGgAg-/0/1738047689060?e=1744243200&v=beta&t=etJfOyNFQByC6ze3BCuLzBMcoN1in7AZr94eYktaFFM',
-    expertise: 'WEB3',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/shubhamshaktirout/',
-      // instagram: 'https://www.instagram.com/davidkim'
-    }
-  },
-];
+const dummyCards = Array.from({ length: 4 }, (_, i) => i);
+
+function DummyPersonCard() {
+  return (
+    <div className="bg-[#12151d] rounded-xl shadow-lg p-6 backdrop-blur-sm" style={{ border: "1px solid #2f2e31" }}>
+      <div className="flex items-center gap-4">
+        <div className="w-1/2">
+          <div className="w-full h-32 bg-gray-700 rounded-md" />
+        </div>
+        <div className="w-1/2">
+          <h3 className="text-xl font-semibold text-center text-white mb-1">Judge Name</h3>
+          <p className="text-center text-gray-400 mb-4">Role Title</p>
+          <div className="flex justify-center gap-4">
+            <div className="w-5 h-5 bg-gray-600 rounded-full" />
+            <div className="w-5 h-5 bg-gray-600 rounded-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export function JudgesSection() {
   return (
     <Section id="judges" title="Panel of Judges">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {mentors.slice(0, 3).map((mentor, index) => (
-          <PersonCard key={index} {...mentor} />
-        ))}
-      </div>
-      <div className="flex justify-center mt-8">
-        <div className="w-full md:w-1/2 lg:w-1/3">
-          <PersonCard key={3} {...mentors[3]} />
+      <div className="relative">
+        <div className="select-none pointer-events-none" style={{ filter: 'blur(20px)' }}>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {dummyCards.slice(0, 3).map((i) => (
+              <DummyPersonCard key={i} />
+            ))}
+          </div>
+          <div className="flex justify-center mt-8">
+            <div className="w-full md:w-1/2 lg:w-1/3">
+              <DummyPersonCard />
+            </div>
+          </div>
         </div>
       </div>
     </Section>
