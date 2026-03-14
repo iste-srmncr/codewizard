@@ -4,11 +4,11 @@ import { Briefcase, Clock, Lightbulb } from 'lucide-react'; // Importing icons f
 
 export function AboutSection() {
   return (
-    <Section id="about" title="About CodeWizard" className="bg-[#070707]" style={{ backgroundColor: 'rgba(1, 1, 7, 0.6)' }}>
+    <Section id="about" title="About CodeWizards" className="bg-[#070707]" style={{ backgroundColor: 'rgba(1, 1, 7, 0.6)' }}>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row text-gray-300">
         {/* Left side with image */}
         <div className="w-full md:w-1/2 h-full">
-          <img src="/hero.gif" alt="CodeWizard" className="w-full h-auto object-cover" />
+          <img src="/hero.gif" alt="CodeWizards" className="w-full h-auto object-cover" />
         </div>
         {/* Right side with text and small cards */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-2 space-y-6">
@@ -16,7 +16,7 @@ export function AboutSection() {
           <div className="relative text-center p-4 rounded-lg border-s-0 transition duration-300 hover:border-red-500 fire-animation" style={{border:"1px solid #303032", width: '100%'}}>
             <p className="text-white text-lg relative z-10 fire-text">
               Join us for an unforgettable weekend of coding, creativity, and collaboration.
-              <br /><strong style={{color:'#fff'}}>CodeWizard</strong> brings together the brightest minds in technology to solve real-world problems.
+              <br /><strong style={{color:'#fff'}}>CodeWizards</strong> brings together the brightest minds in technology to solve real-world problems.
             </p>
           </div>
           {/* Three Small Cards */}
