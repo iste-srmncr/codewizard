@@ -28,7 +28,7 @@ export function JudgesSection() {
     <Section id="judges" title="Panel of Judges">
       <div className="relative">
         <div className="select-none pointer-events-none" style={{ filter: 'blur(20px)' }}>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {dummyCards.slice(0, 3).map((i) => (
               <DummyPersonCard key={i} />
             ))}
