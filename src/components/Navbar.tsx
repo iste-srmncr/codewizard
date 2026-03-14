@@ -4,14 +4,6 @@ import logo from '../assets/logocode.png'
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -31,18 +23,18 @@ export function Navbar() {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+    <nav className={`fixed w-full z-50 transition-all duration-300 overflow-hidden ${
       isScrolled ? 'bg-[#1a1a20]/95 backdrop-blur-sm py-4' : 'bg-transparent py-6'
     }`} >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-[#dbe2e7]">
-  <img src={logo} alt="CodeWizards Logo" className={windowWidth <= 768 ? 'h-9' : 'h-12'}  style={{backgroundColor:'transparent'}} />
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex items-center justify-between min-w-0">
+        <a href="#" className="text-2xl font-bold text-[#dbe2e7] shrink-0">
+  <img src={logo} alt="CodeWizards Logo" className="h-9 lg:h-12" style={{backgroundColor:'transparent'}} />
 </a>
 
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8" style={{fontWeight:500}}>
+          <div className="hidden lg:flex items-center space-x-8" style={{fontWeight:500}}>
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -53,7 +45,7 @@ export function Navbar() {
               </a>
             ))}
             <button
-              className="bg-gray-600 text-white font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60"
+              className="bg-gray-600 text-white font-bold py-2 px-6 rounded-full text-sm cursor-not-allowed opacity-60 whitespace-nowrap"
               style={{ border: "1px solid #fff4a3" }}
               disabled
             >
@@ -64,7 +56,7 @@ export function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-300"
+            className="lg:hidden text-gray-300"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -73,7 +65,7 @@ export function Navbar() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+          <div className="lg:hidden mt-4 bg-gray-800 rounded-lg p-4">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -85,7 +77,7 @@ export function Navbar() {
               </a>
             ))}
             <button
-              className="bg-gray-600 text-white font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60"
+              className="bg-gray-600 text-white font-bold py-2 px-6 rounded-full text-sm cursor-not-allowed opacity-60 mt-2 w-full"
               style={{ border: "1px solid #fff4a3" }}
               disabled
             >

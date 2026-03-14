@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div
-      className="min-h-screen text-white relative"
+      className="min-h-screen text-white relative overflow-x-hidden"
       style={{ backgroundColor: '#010409' }}
     >
       <VantaBackground />
