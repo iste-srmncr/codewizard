@@ -44,13 +44,15 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <button
-              className="bg-gray-600 text-white font-bold py-2 px-6 rounded-full text-sm cursor-not-allowed opacity-60 whitespace-nowrap"
+            <a
+              href="https://unstop.com/o/rI6SB5k?lb=X3zc78BR&utm_medium=Share&utm_source=isteozwv61127&utm_campaign=Online_coding_challenge"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full text-sm whitespace-nowrap transition-colors"
               style={{ border: "1px solid #fff4a3" }}
-              disabled
             >
-              Registration Opening Soon
-            </button>
+              Register Now
+            </a>
 
           </div>
 
@@ -76,13 +78,15 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <button
-              className="bg-gray-600 text-white font-bold py-2 px-6 rounded-full text-sm cursor-not-allowed opacity-60 mt-2 w-full"
+            <a
+              href="https://unstop.com/o/rI6SB5k?lb=X3zc78BR&utm_medium=Share&utm_source=isteozwv61127&utm_campaign=Online_coding_challenge"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full text-sm mt-2 w-full text-center transition-colors"
               style={{ border: "1px solid #fff4a3" }}
-              disabled
             >
-              Registration Opening Soon
-            </button>
+              Register Now
+            </a>
 
           </div>
         )}
