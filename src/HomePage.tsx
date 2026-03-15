@@ -62,10 +62,7 @@ function App() {
               <span style={{ color: '#c0c0c0', fontWeight: 'bold' }}>Code</span>
             </p>
           </div>
-          <div className="mb-12">
-            <p style={{fontSize:38,fontWeight:"bold"}}>Coming Soon 🔥🔥</p>
-          </div>
-          <a
+<a
             href="https://unstop.com/o/rI6SB5k?lb=X3zc78BR&utm_medium=Share&utm_source=isteozwv61127&utm_campaign=Online_coding_challenge"
             target="_blank"
             rel="noopener noreferrer"
