@@ -43,7 +43,7 @@ function App() {
         <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
           <div className="container mx-auto px-4 text-center relative z-10">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text">
-              CodeWizards <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2.O</span>
+              CodeWizards <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2.0</span>
             </h1>
 
             <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
