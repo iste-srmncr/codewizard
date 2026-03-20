@@ -1,11 +1,35 @@
 import { Section } from "./Section";
 
+
+// Control Each Logo Color
+
+// White logo
+// color: "white"
+
+// Black logo
+// color: "black"
+
+// Gray logo
+// color: "gray"
+
+// Original logo color
+// color: null
+
 const sponsors = [
   {
-    name: "",
+    name: ".xyz",
     logo: "/sponsors/xyz-logo-color.png",
     url: "https://gen.xyz/",
-    isPlaceholder: false,
+    color: "null", // control logo color
+    isPlaceholder: true,
+  },
+
+  {
+    name: "Example Sponsor",
+    logo: "/sponsors/example.png",
+    url: "https://example.com",
+    color: "white",
+    isPlaceholder: true,
   },
 
   { isPlaceholder: true },
@@ -18,8 +42,17 @@ const sponsors = [
   { isPlaceholder: true },
   { isPlaceholder: true },
   { isPlaceholder: true },
-  { isPlaceholder: true },
 ];
+
+function getFilter(color) {
+  if (!color) return "none";
+
+  if (color === "white") return "brightness(0) invert(1)";
+  if (color === "black") return "brightness(0)";
+  if (color === "gray") return "grayscale(1)";
+
+  return "none";
+}
 
 export function SponsorsSection() {
   return (
@@ -38,22 +71,31 @@ export function SponsorsSection() {
             {sponsor.isPlaceholder ? (
               <>
                 <div className="w-full h-24 sm:h-32 bg-gray-600 rounded-t-xl" />
+
                 <div className="text-center mt-4">
-                  <h3 className="font-bold text-white mb-1 text-sm sm:text-base">
+                  <h3 className="font-bold text-white text-sm sm:text-base">
                     Sponsor Name
                   </h3>
                 </div>
               </>
             ) : (
-              <a href={sponsor.url} target="_blank" rel="noopener noreferrer">
+              <a
+                href={sponsor.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
                 <img
                   src={sponsor.logo}
                   alt={sponsor.name}
                   className="w-full h-24 sm:h-32 object-contain"
+                  style={{
+                    filter: getFilter(sponsor.color),
+                  }}
                 />
 
                 <div className="text-center mt-4">
-                  <h3 className="font-bold text-white mb-1 text-sm sm:text-base">
+                  <h3 className="font-bold text-white text-sm sm:text-base">
                     {sponsor.name}
                   </h3>
                 </div>
