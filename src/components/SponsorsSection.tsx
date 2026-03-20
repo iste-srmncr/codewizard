@@ -1,27 +1,12 @@
 import { Section } from "./Section";
 
-
-// Control Each Logo Color
-
-// White logo
-// color: "white"
-
-// Black logo
-// color: "black"
-
-// Gray logo
-// color: "gray"
-
-// Original logo color
-// color: null
-
 const sponsors = [
   {
     name: ".xyz",
-    logo: "/sponsors/xyz-logo-color.png",
+    logo: "/sponsors/xyz-logo-color.svg",
     url: "https://gen.xyz/",
-    color: "null", // control logo color
-    isPlaceholder: true,
+    color: "#05A083", // custom hex color
+    isPlaceholder: false,
   },
 
   {
@@ -52,6 +37,10 @@ function getFilter(color) {
   if (color === "gray") return "grayscale(1)";
 
   return "none";
+}
+
+function isHex(color) {
+  return /^#([0-9A-F]{3}){1,2}$/i.test(color);
 }
 
 export function SponsorsSection() {
@@ -85,14 +74,31 @@ export function SponsorsSection() {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className="w-full h-24 sm:h-32 object-contain"
-                  style={{
-                    filter: getFilter(sponsor.color),
-                  }}
-                />
+                {isHex(sponsor.color) ? (
+                  <div
+                    className="w-full h-24 sm:h-32"
+                    style={{
+                      backgroundColor: sponsor.color,
+                      WebkitMaskImage: `url(${sponsor.logo})`,
+                      WebkitMaskRepeat: "no-repeat",
+                      WebkitMaskPosition: "center",
+                      WebkitMaskSize: "contain",
+                      maskImage: `url(${sponsor.logo})`,
+                      maskRepeat: "no-repeat",
+                      maskPosition: "center",
+                      maskSize: "contain",
+                    }}
+                  />
+                ) : (
+                  <img
+                    src={sponsor.logo}
+                    alt={sponsor.name}
+                    className="w-full h-24 sm:h-32 object-contain"
+                    style={{
+                      filter: getFilter(sponsor.color),
+                    }}
+                  />
+                )}
 
                 <div className="text-center mt-4">
                   <h3 className="font-bold text-white text-sm sm:text-base">
