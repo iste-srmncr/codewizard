@@ -5,7 +5,7 @@ const sponsors = [
     name: ".xyz",
     logo: "/sponsors/xyz-logo-color.svg",
     url: "https://gen.xyz/",
-    color: "#AD0766", // custom hex color
+    color: "#09b03e", // custom hex color
     isPlaceholder: false,
   },
 
