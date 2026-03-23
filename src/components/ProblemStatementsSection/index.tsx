@@ -43,7 +43,7 @@ export function ProblemStatementsSection() {
   return (
     <Section id="problems" title="Problem Statements">
       <div className="grid gap-4 max-w-3xl mx-auto relative">
-        <div className="filter blur-md select-none pointer-events-none">
+        <div>
           {problems.map((problem, index) => (
             <div key={index} className="mb-4">
               <ProblemBox
@@ -54,9 +54,6 @@ export function ProblemStatementsSection() {
               />
             </div>
           ))}
-        </div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-white text-2xl font-bold bg-black/50 px-8 py-3 rounded-full backdrop-blur-sm">Coming Soon</span>
         </div>
       </div>
       {selectedProblem && (
