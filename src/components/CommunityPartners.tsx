@@ -6,7 +6,7 @@ export function CommunityPartners() {
     return (
         <Section id="community" title="Community & Media Partner">
             <div className="relative">
-                <div className="select-none pointer-events-none" style={{ filter: 'blur(20px)' }}>
+                <div>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
                         {dummyBoxes.map((index) => (
                             <div
@@ -16,7 +16,7 @@ export function CommunityPartners() {
                             >
                                 <div className="w-full h-24 sm:h-32 bg-gray-600 rounded-t-xl" />
                                 <div className="text-center mt-4">
-                                    <h3 className="font-bold text-white mb-1 text-sm sm:text-base">Partner Name</h3>
+                                    <h3 className="font-bold text-white mb-1 text-sm sm:text-base">Revealing Soon</h3>
                                 </div>
                             </div>
                         ))}

@@ -45,16 +45,14 @@ function isHex(color) {
 
 export function SponsorsSection() {
   return (
-    <Section id="sponsors" title="Our Sponsors">
+    <Section id="sponsors" title="Our Previous Sponsors">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
         {sponsors.map((sponsor, index) => (
           <div
             key={index}
-            className={`bg-gray-800/50 p-4 rounded-xl backdrop-blur-sm ${sponsor.isPlaceholder ? "pointer-events-none select-none" : ""
-              }`}
+            className={`bg-gray-800/50 p-4 rounded-xl backdrop-blur-sm`}
             style={{
               border: "1px solid #383838",
-              filter: sponsor.isPlaceholder ? "blur(12px)" : "none",
             }}
           >
             {sponsor.isPlaceholder ? (
