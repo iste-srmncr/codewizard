@@ -48,7 +48,7 @@ function App() {
 
             <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
               <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent
-"> 10-11th April, 2026</span>
+"> 17-18th April, 2026</span>
             </h6>
             <div className="inline-block mb-12 px-6 py-3 rounded-xl" style={{
               background: 'rgba(0, 0, 0, 0.5)',
