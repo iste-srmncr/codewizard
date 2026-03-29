@@ -2,14 +2,18 @@
 import { Section } from './Section';
 
 const pastSponsors = [
-  { name: 'TechCorp', tier: 'platinum', imageUrl: 'PastSponsorLogos/Polygon Primary Dark.svg' },
-  { name: 'DevHub', tier: 'gold', imageUrl: 'PastSponsorLogos/Devfolio - White.svg' },
-  { name: 'CloudNet', tier: 'gold', imageUrl: 'PastSponsorLogos/Untitled.svg' },
-  { name: 'CodeLabs', tier: 'silver', imageUrl: 'PastSponsorLogos/digitalocean-horizontal.svg' },
-  { name: 'DataFlow', tier: 'silver', imageUrl: 'PastSponsorLogos/jetbrains-mono-white.svg' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/grnew.svg' },
-  { name: 'Github', tier: 'bronze', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tvx2BFjpYmfiIBLV25XIfVZy4KhCYFLB7w&s' },
-  { name: 'AIVentures', tier: 'bronze', imageUrl: 'PastSponsorLogos/redbull2.svg' },
+  { name: '0x.day', tier: 'platinum', imageUrl: 'https://media.licdn.com/dms/image/v2/D4D0BAQHgu_N0xl290g/company-logo_200_200/company-logo_200_200/0/1709907862057/0xday_logo?e=2147483647&v=beta&t=Z4W7JAzQQv33LQxTE6ID_tYa6v7h-bb99kEBXl_vOIo' },
+  { name: 'DoraHacks', tier: 'gold', imageUrl: 'https://media.licdn.com/dms/image/v2/C560BAQGkE3LXE54TSw/company-logo_200_200/company-logo_200_200/0/1636729801714/dorahacks_logo?e=2147483647&v=beta&t=KfvgydRECMTjVhs8v9G-R8zmgKniEa9n41qddvcHL-A' },
+  { name: 'Coding Blocks', tier: 'gold', imageUrl: 'https://blog.codingblocks.com/content/images/size/w1000/2018/11/Logo_White_-NoShadow.png' },
+  { name: 'EXPLORERS COMPANY', tier: 'gold', imageUrl: 'https://ugc.production.linktr.ee/yxjvusj4RuG0iLkbmzGy_2uzW9AQNsqw3xQc6?io=true&size=avatar-v3_0' },
+  { name: 'DevDocks.ai', tier: 'silver', imageUrl: 'https://pbs.twimg.com/profile_images/1854967586674425856/KtgsHH0u_400x400.jpg' },
+  { name: 'FlatLogic', tier: 'silver', imageUrl: 'https://avatars.githubusercontent.com/u/8533408?s=280&v=4' },
+  { name: 'Interview Buddy', tier: 'silver', imageUrl: 'https://interviewbuddy.net/assests/logos/old-ib-logo.svg' },
+  { name: 'gen.xyz', tier: 'silver', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png' },
+  { name: 'Hurricane', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPmvg31aAcjMmc88pON9Cn7oPQiAmoCdHoQ&s' },
+  { name: 'Appwrite', tier: 'silver', imageUrl: 'https://appwrite.io/images/logos/appwrite.svg' },
+  { name: 'AoPS Online', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhwsUBSbaHw3WEOhjJQYuwzRtH3Zx6200ag&s' },
+  { name: 'Spheron', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-c-NsIL7Z1X-H1iZp0PaNqSSQlB6rosZE3A&s' },
 ];
 
 export function PastSponsorsSection() {
@@ -26,10 +30,8 @@ export function PastSponsorsSection() {
             <img
               src={sponsor.imageUrl}
               alt={sponsor.name}
-              className="w-full h-20  rounded-t-md"
-              onLoad={(e) => e.target.style.opacity = '1'}
-              onError={(e) => e.target.style.backgroundColor = 'gray'}
-              style={{ opacity: 0 }}
+              className="w-full h-20 rounded-t-md object-contain"
+              referrerPolicy="no-referrer"
             />
             <div className={`text-center mt-2 text-sm ${
               sponsor.tier === 'platinum' ? 'text-xl' :

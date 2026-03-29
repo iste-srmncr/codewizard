@@ -6,7 +6,7 @@ import { SponsorsSection } from './components/SponsorsSection';
 import { CommunityPartners } from './components/CommunityPartners';
 import { MentorsSection } from './components/MentorsSection';
 import { TeamSection } from './components/TeamSection';
-import { ProblemStatementsSection } from './components/ProblemStatementsSection';
+// import { ProblemStatementsSection } from './components/ProblemStatementsSection';
 import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
 import { PrizePool } from './components/PrizePool';
@@ -15,6 +15,7 @@ import { Bed, Bus, Medal, Book, Smile } from 'lucide-react';
 import { RoadmapSection } from './components/RoadmapSection';
 import { AboutSection } from './components/AboutSection';
 import { JudgesSection } from './components/JudgesSection';
+// import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { VantaBackground } from './components/VantaBackground';
 function App() {
   const amenities = [
@@ -95,8 +96,9 @@ function App() {
         </Section>
 
         <PrizePool />
-        <ProblemStatementsSection />
+        {/* ProblemStatementsSection removed temporarily */}
         <SponsorsSection />
+        {/* Past sponsors section commented out */}
         <CommunityPartners />
         <JudgesSection />
         <MentorsSection />
