@@ -2,32 +2,31 @@ import React from 'react';
 import { Navbar } from './components/Navbar';
 import { CountdownTimer } from './components/CountdownTimer';
 import { Section } from './components/Section';
-import { SponsorsSection } from './components/SponsorsSection';
-import { CommunityPartners } from './components/CommunityPartners';
+// import { SponsorsSection } from './components/SponsorsSection';
+// import { CommunityPartners } from './components/CommunityPartners';
 import { MentorsSection } from './components/MentorsSection';
 import { TeamSection } from './components/TeamSection';
 // import { ProblemStatementsSection } from './components/ProblemStatementsSection';
 import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
 import { PrizePool } from './components/PrizePool';
-import { Code2, Wifi, Coffee, Gift } from 'lucide-react';
-import { Bed, Bus, Medal, Book, Smile } from 'lucide-react';
+import { Coffee, Mic, Trophy, HandshakeIcon, Lightbulb, ShoppingBag } from 'lucide-react';
+import { Bed, Bus } from 'lucide-react';
 import { RoadmapSection } from './components/RoadmapSection';
 import { AboutSection } from './components/AboutSection';
 import { JudgesSection } from './components/JudgesSection';
-// import { PastSponsorsSection } from './components/PastSponsorsSection';
+import { PastSponsorsSection } from './components/PastSponsorsSection';
 import { VantaBackground } from './components/VantaBackground';
 function App() {
   const amenities = [
-    { icon: <Wifi className="w-8 h-8" />, title: 'High-Speed WiFi', description: 'Stay connected with blazing fast internet' },
-    { icon: <Coffee className="w-8 h-8" />, title: 'Free Food & Drinks', description: 'Keep energized throughout the event' },
-    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Enjoy free transport services from the nearest metro station.' },
-    { icon: <Bed className="w-8 h-8" />, title: 'Accommodation', description: 'Comfortable stay for all participants' },
-    { icon: <Gift className="w-8 h-8" />, title: 'Swag Kits', description: 'Exclusive merchandise for all participants' },
-    { icon: <Code2 className="w-8 h-8" />, title: 'Workshop Access', description: 'Learn from industry experts' },
-
-    { icon: <Medal className="w-8 h-8" />, title: 'Awards & Recognition', description: 'Get rewarded for your outstanding efforts' },
-    { icon: <Smile className="w-8 h-8" />, title: 'Networking Opportunities', description: 'Connect with like-minded individuals' },
+    { icon: <Trophy className="w-8 h-8" />, title: 'Cash Prizes', description: 'Exciting cash prizes for the top winning teams' },
+    { icon: <HandshakeIcon className="w-8 h-8" />, title: 'Networking', description: 'Connect with peers, mentors, and industry professionals' },
+    { icon: <Lightbulb className="w-8 h-8" />, title: 'Expert Guidance', description: 'One-on-one mentoring sessions from industry experts' },
+    { icon: <Mic className="w-8 h-8" />, title: 'Speaker Sessions', description: 'Get inspired by motivational speaker sessions' },
+    { icon: <ShoppingBag className="w-8 h-8" />, title: 'Official Goodies & Swags', description: 'Exclusive merchandise and swag kits for all participants' },
+    { icon: <Coffee className="w-8 h-8" />, title: 'Free Food & Drinks', description: 'Meals, snacks, and beverages throughout the event' },
+    { icon: <Bus className="w-8 h-8" />, title: 'Transportation', description: 'Free transport services from the nearest metro station' },
+    { icon: <Bed className="w-8 h-8" />, title: 'Accommodation', description: 'Comfortable overnight stay for all participants' },
   ];
   // jnj
 
@@ -43,9 +42,16 @@ function App() {
         {/* Hero Section */}
         <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
           <div className="container mx-auto px-4 text-center relative z-10">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <span className="text-sm font-medium tracking-wider uppercase text-gray-400">Powered by</span>
+              <img src="/unstop-logo.png" alt="Unstop" className="h-10 inline-block rounded-full px-3 py-1 bg-white" />
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text">
               CodeWizards <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent">2.0</span>
             </h1>
+            <p className="text-lg md:text-xl font-medium mb-4 tracking-widest uppercase text-gray-300">
+              National Level Hackathon
+            </p>
 
             <h6 className="text-2xl md:text-3xl font-bold mb-6 text-[#fff] bg-clip-text">
               <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent
@@ -57,7 +63,7 @@ function App() {
               border: '1px solid rgba(255,255,255,0.08)',
             }}>
               <p className="text-xl lg:text-2xl xl:text-3xl text-gray-300" style={{ fontFamily: 'Oxanium' }}>
-                36 Hours of{' '}
+                24 Hours of{' '}
                 <span style={{ color: '#99bcf6', fontWeight: 'bold' }}>Innovation</span>,{' '}
                 <span style={{ color: '#ffc412', fontWeight: 'bold' }}>Creativity</span>, &{' '}
                 <span style={{ color: '#c0c0c0', fontWeight: 'bold' }}>Code</span>
@@ -97,12 +103,12 @@ function App() {
 
         <PrizePool />
         {/* ProblemStatementsSection removed temporarily */}
-        <SponsorsSection />
-        {/* Past sponsors section commented out */}
-        <CommunityPartners />
+        {/* <SponsorsSection /> */}
+        {/* <CommunityPartners /> */}
         <JudgesSection />
         <MentorsSection />
         {/* <TeamSection /> */}
+        <PastSponsorsSection />
         <FAQSection />
         <Footer />
       </div>

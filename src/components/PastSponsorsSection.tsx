@@ -9,7 +9,7 @@ const pastSponsors = [
   { name: 'DevDocks.ai', tier: 'silver', imageUrl: 'https://pbs.twimg.com/profile_images/1854967586674425856/KtgsHH0u_400x400.jpg' },
   { name: 'FlatLogic', tier: 'silver', imageUrl: 'https://avatars.githubusercontent.com/u/8533408?s=280&v=4' },
   { name: 'Interview Buddy', tier: 'silver', imageUrl: 'https://interviewbuddy.net/assests/logos/old-ib-logo.svg' },
-  { name: 'gen.xyz', tier: 'silver', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png' },
+  { name: 'gen.xyz', tier: 'silver', imageUrl: '/sponsors/xyz-logo-color.png' },
   { name: 'Hurricane', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPmvg31aAcjMmc88pON9Cn7oPQiAmoCdHoQ&s' },
   { name: 'Appwrite', tier: 'silver', imageUrl: 'https://appwrite.io/images/logos/appwrite.svg' },
   { name: 'AoPS Online', tier: 'silver', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhwsUBSbaHw3WEOhjJQYuwzRtH3Zx6200ag&s' },
