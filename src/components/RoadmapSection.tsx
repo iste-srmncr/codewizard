@@ -18,7 +18,7 @@ const timelineData = {
       description: 'Find your teammates and form a strong team.'
     },
     {
-      time: 'Wednesday, 4:00 PM',
+      time: 'Thursday Evening',
       title: 'Problem Statement Release',
       icon: <FileCode2 className="w-6 h-6" />,
       description: 'Understand the challenge you will tackle.'
