@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Section } from './Section';
-import { Coffee, Code2, Award, Upload, Pizza, Users,FileCode2,SquarePen,MonitorCheck, Flame, Drum, Speech,Clapperboard } from 'lucide-react';
+import { Coffee, Code2, Award, Pizza, Users, FileCode2, SquarePen, MonitorCheck, Flame, Clapperboard, Utensils, Trophy } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const timelineData = {
@@ -18,8 +18,8 @@ const timelineData = {
       description: 'Find your teammates and form a strong team.'
     },
     {
-      // time: 'N/A',
-      title: 'Problem Statement Release Date',
+      time: 'Wednesday, 4:00 PM',
+      title: 'Problem Statement Release',
       icon: <FileCode2 className="w-6 h-6" />,
       description: 'Understand the challenge you will tackle.'
     },
@@ -32,85 +32,78 @@ const timelineData = {
   ],
   day1: [
     {
-      time: '09:00 AM',
-      title: 'In-Campus Registration Desk',
+      time: '10:00 AM - 11:00 AM',
+      title: 'Registration',
       icon: <MonitorCheck className="w-6 h-6" />,
       description: 'Complete your registration and settle in.'
     },
     {
-      time: '10:00 AM',
-      title: 'Opening Ceremony',
+      time: '12:00 PM - 01:00 PM',
+      title: 'Inauguration',
       icon: <Flame className="w-6 h-6" />,
-      description: 'Kick-off the event with an inspiring opening.'
+      description: 'Kick-off the event with an inspiring opening ceremony.'
     },
     {
-      time: '10:30 AM',
-      title: 'Hack Starts',
-      icon: <Code2 className="w-6 h-6" />,
-      description: 'Begin building your projects.'
-    },
-
-    {
-      time: '02:00 PM',
+      time: '02:00 PM - 03:00 PM',
       title: 'Lunch',
       icon: <Pizza className="w-6 h-6" />,
       description: 'Refuel yourself for the rest of the day.'
     },
     {
-      time: '03:00 PM - 06:00 PM',
-      title: 'Mentorship Sessions - 1',
+      time: '04:00 PM',
+      title: 'Mentoring Session 1',
       icon: <Users className="w-6 h-6" />,
       description: 'Get guidance from industry experts.'
     },
-{
-      time: '08:00 PM',
+    {
+      time: '08:00 PM - 09:00 PM',
       title: 'Dinner',
-      icon: <Pizza className="w-6 h-6" />,
+      icon: <Utensils className="w-6 h-6" />,
       description: 'Enjoy a delicious meal.'
     },
     {
-      time: '08:30 PM',
-      title: 'Fun Activities',
-      icon: <Drum className="w-6 h-6" />,
-      description: 'Relax and bond with other participants.'
+      time: '11:00 PM',
+      title: 'Mentoring Session 2',
+      icon: <Users className="w-6 h-6" />,
+      description: 'Late-night mentoring to refine your projects.'
     }
   ],
   day2: [
     {
-      time: '08:00 AM - 09:00 AM',
-      title: 'Submission',
-      icon: <Upload className="w-6 h-6" />,
-      description: 'Submit your final projects.'
+      time: '07:30 AM',
+      title: 'Mentoring Session 3 (Final)',
+      icon: <Users className="w-6 h-6" />,
+      description: 'Final round of mentoring before submissions.'
     },
     {
-      time: '10:00 AM',
+      time: '08:30 AM - 10:00 AM',
       title: 'Breakfast',
-      icon: <Pizza className="w-6 h-6" />,
+      icon: <Coffee className="w-6 h-6" />,
       description: 'Start your day with a hearty meal.'
     },
     {
-      time: '12:00 PM',
-      title: 'Shortlisting Team Declared',
-      icon: <Users className="w-6 h-6" />,
-      description: 'Announcement of shortlisted teams.'
-    },
-    {
-      time: '01:00 PM',
-      title: 'Final Pitches to Judges',
-      icon: <Clapperboard className="w-6 h-6" />,
-      description: 'Present your project to the judges.'
-    },
-    {
-      time: '02:30 PM',
-      title: 'Speaker Sessions',
-      icon: <Speech className="w-6 h-6" />,
-      description: 'Get inspired by keynote speakers.'
-    },
-    {
-      time: '04:00 PM',
-      title: 'Result Declaration',
+      time: '10:30 AM',
+      title: 'Finalist Announcement',
       icon: <Award className="w-6 h-6" />,
-      description: 'Celebrate the winners.'
+      description: 'Top 10 teams announced for the final round.'
+    },
+    {
+      time: '10:45 AM - 01:30 PM',
+      title: 'Presentations',
+      icon: <Clapperboard className="w-6 h-6" />,
+      description: '10 minutes PPT + 5 minutes Q&A per team.'
+    },
+    {
+      time: '01:40 PM',
+      title: 'Final Announcement & Valedictory',
+      icon: <Trophy className="w-6 h-6" />,
+      description: 'Top 3 teams announced and valedictory ceremony.'
+    },
+    {
+      time: '02:30 PM - 03:30 PM',
+      title: 'Lunch',
+      icon: <Pizza className="w-6 h-6" />,
+      description: 'Closing lunch for all participants, mentors, and judges.'
     }
   ]
 };
