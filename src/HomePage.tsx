@@ -16,6 +16,7 @@ import { RoadmapSection } from './components/RoadmapSection';
 import { AboutSection } from './components/AboutSection';
 import { JudgesSection } from './components/JudgesSection';
 import { PastSponsorsSection } from './components/PastSponsorsSection';
+import { CurrentSponsorsSection } from './components/CurrentSponsorsSection';
 import { VantaBackground } from './components/VantaBackground';
 function App() {
   const amenities = [
@@ -107,6 +108,7 @@ function App() {
         {/* <CommunityPartners /> */}
         <JudgesSection />
         <MentorsSection />
+        <CurrentSponsorsSection />
         {/* <TeamSection /> */}
         <PastSponsorsSection />
         <FAQSection />
